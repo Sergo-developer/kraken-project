@@ -15,7 +15,7 @@ import LobbyInformationBlock from '@/components/Lobby/LobbyInformationBlock.vue'
       </div>
       <div class="lobby-bottom-buttons">
         <router-link :to="'merchant'" class="lobby-button">Merchant</router-link>
-        <div class="lobby-button">idk</div>
+        <div class="lobby-button">Quests</div>
         <div class="lobby-button">idk</div>
       </div>
     </div>
