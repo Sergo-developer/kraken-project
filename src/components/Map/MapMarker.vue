@@ -13,11 +13,16 @@ const props = defineProps<{x: number, y: number, title: string}>()
 
 <style scoped>
 .marker-wrapper {
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
   display: flex;
   flex-flow: column;
   align-items: center;
   text-align: center;
-  color: yellow;
+  color: white;
   width: 100px;
 }
 

@@ -64,9 +64,12 @@ onMounted(() => {
 <template>
   <div class="map-wrapper">
     <div class="map-main-wrapper" ref="wrapper">
-      <div class="map" ref="map">
-        <map-marker @click="selectLocation('Kraken-3')" :x="150" :y="230" :title="'Kraken-3'" />
-        <map-marker @click="selectLocation('Greenhouse')" :x="620" :y="-50" :title="'Greenhouse'" />
+      <div class="map-main-layer" ref="map">
+      <div class="map" >
+        <map-marker @click="selectLocation('Mayda-3')" :x="50" :y="230" :title="'Mayda-3'" />
+        <map-marker @click="selectLocation('City')" :x="500" :y="70" :title="'City'" />
+        <map-marker @click="selectLocation('Port')" :x="500" :y="160" :title="'Port'" />
+      </div>
       </div>
     </div>
     <div v-if="selectedLocation != null" class="location-info">
@@ -101,6 +104,14 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.map-main-layer {
+  background-position: center;
+  background-size: 80px;
+  height: 100%;
+  width: 1100px;
+  animation: animate-sea infinite 1s steps(1);
+}
+
 .to-location-button {
   user-select: none;
   cursor: pointer;
@@ -204,8 +215,8 @@ onMounted(() => {
 }
 
 .map {
-  background-image: url("/sprites/map/mapMain.png");
-  background-position: center;
+  background-image: url("/sprites/map/newMap.png");
+  background-position: top;
   background-size: 1100px;
   background-repeat: no-repeat;
   height: 100%;
@@ -213,15 +224,18 @@ onMounted(() => {
 }
 
 
-@keyframes animate-static {
+@keyframes animate-sea {
   0% {
-    background-image: url("/sprites/map/mapMain0.png");
+    background-image: url("/sprites/map/sea.png");
   }
-  50%{
-    background-image: url("/sprites/map/mapMain1.png");
+  25%{
+    background-image: url("/sprites/map/sea0.png");
+  }
+  75% {
+    background-image: url("/sprites/map/sea1.png");
   }
   100% {
-    background-image: url("/sprites/map/mapMain2.png");
+    background-image: url("/sprites/map/sea0.png");
   }
 }
 </style>

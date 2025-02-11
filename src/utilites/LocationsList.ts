@@ -19,8 +19,8 @@ export interface AllLocations {
 }
 
 export const allLocations: Record<string, AllLocations> = {
-  'Kraken-3': {
-    name: 'Kraken-3',
+  'Mayda-3': {
+    name: 'Mayda-3',
     description:
       'Science city built a couple hundred years ago, the most technologically advanced city on the other side of the asteroid belt, but the wars and the collapse of the Soviet Union left it to be plundered by especially adventurous representatives of our species.',
     icon: '/sprites/locations/kraken11-icon.png',
