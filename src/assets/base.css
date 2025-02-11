@@ -66,6 +66,7 @@
 }
 
 body {
+  user-select: none;
   image-rendering: pixelated;
   min-height: 100vh;
   color: white;

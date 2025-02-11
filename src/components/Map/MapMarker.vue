@@ -1,15 +1,32 @@
 <script setup lang="ts">
+
 const props = defineProps<{x: number, y: number, title: string}>()
 </script>
 
 <template>
-  <div :style="{transform: `translateX(${props.x}px) translateY(${props.y}px)`}" class="marker"></div>
+  <div class="marker-wrapper" :style="{transform: `translateX(${props.x}px) translateY(${props.y}px)`}">
+    <div class="marker-title">{{props.title}}</div>
+    <div class="marker"></div>
+  </div>
+
 </template>
 
 <style scoped>
+.marker-wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  color: yellow;
+  width: 100px;
+}
+
+.marker-title{
+}
+
 .marker {
   cursor: pointer;
-  background-image: url("/public/sprites/map/marker.png");
+  background-image: url("/sprites/map/marker.png");
   background-size: 40px;
   height: 40px;
   width: 40px;

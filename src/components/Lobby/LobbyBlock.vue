@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import PlayerBars from '@/components/PlayerBars.vue';
 import LobbyInformationBlock from '@/components/Lobby/LobbyInformationBlock.vue';
+import useLocationStore from '@/stores/locationStore.ts';
+const { currentLocation } = useLocationStore();
+
 </script>
 
 <template>
-  <div class="lobby-image"></div>
+  <div :style="{backgroundImage: `url(${currentLocation.background})`}" class="lobby-image"></div>
   <player-bars />
   <div class="lobby-wrapper">
-    <lobby-information-block />
+    <lobby-information-block :currentLocation />
     <div class="lobby-interactive-block">
       <div class="lobby-button expedition">
         <div>In expedition</div>
@@ -16,7 +19,7 @@ import LobbyInformationBlock from '@/components/Lobby/LobbyInformationBlock.vue'
       <div class="lobby-bottom-buttons">
         <router-link :to="'merchant'" class="lobby-button">Merchant</router-link>
         <div class="lobby-button">Quests</div>
-        <div class="lobby-button">idk</div>
+        <div class="lobby-button">Stash</div>
       </div>
     </div>
   </div>
@@ -35,6 +38,7 @@ import LobbyInformationBlock from '@/components/Lobby/LobbyInformationBlock.vue'
 .lobby-bottom-buttons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
 }
 
 .lobby-wrapper {
@@ -66,7 +70,7 @@ import LobbyInformationBlock from '@/components/Lobby/LobbyInformationBlock.vue'
 .lobby-button.expedition:hover {
   text-shadow: black 0 3px 3px;
   background-size: 160px;
-  background-image: url("public/sprites/background/bgMozaicRed.png");
+  background-image: url("/sprites/background/bgMozaicRed.png");
   animation: button-slide 10s linear infinite;
   color: red;
 }
@@ -87,7 +91,6 @@ import LobbyInformationBlock from '@/components/Lobby/LobbyInformationBlock.vue'
 }
 
 .lobby-image {
-  background-image: url("/sprites/background/bg1.png");
   background-size: 800px;
   background-position: center;
   width: 100%;
