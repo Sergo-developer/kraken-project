@@ -3,11 +3,10 @@ import PlayerBars from '@/components/PlayerBars.vue';
 import LobbyInformationBlock from '@/components/Lobby/LobbyInformationBlock.vue';
 import useLocationStore from '@/stores/locationStore.ts';
 const { currentLocation } = useLocationStore();
-
 </script>
 
 <template>
-  <div :style="{backgroundImage: `url(${currentLocation.background})`}" class="lobby-image"></div>
+  <div :style="{ backgroundImage: `url(${currentLocation.background})` }" class="lobby-image">Переделай как-то бары бля...</div>
   <player-bars />
   <div class="lobby-wrapper">
     <lobby-information-block :currentLocation />
@@ -23,7 +22,6 @@ const { currentLocation } = useLocationStore();
       </div>
     </div>
   </div>
-
 </template>
 
 <style scoped>
@@ -56,11 +54,21 @@ const { currentLocation } = useLocationStore();
   width: 100%;
   border: 1px solid white;
   color: white;
-  background: linear-gradient(0deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.13) 50%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.13) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .lobby-button.expedition {
-  background: linear-gradient(0deg, rgba(255, 0, 0, 0.25) 0%, rgba(255, 0, 0, 0.13) 50%, rgba(255, 0, 0, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 0.25) 0%,
+    rgba(255, 0, 0, 0.13) 50%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 
 .lobby-button:hover {
@@ -70,7 +78,7 @@ const { currentLocation } = useLocationStore();
 .lobby-button.expedition:hover {
   text-shadow: black 0 3px 3px;
   background-size: 160px;
-  background-image: url("/sprites/background/bgMozaicRed.png");
+  background-image: url('/sprites/background/bgMozaicRed.png');
   animation: button-slide 10s linear infinite;
   color: red;
 }

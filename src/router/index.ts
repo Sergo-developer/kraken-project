@@ -4,6 +4,7 @@ import MapBlock from '@/components/Map/MapBlock.vue';
 import MerchantBlock from '@/components/Merchant/MerchantBlock.vue';
 import InventoryBlock from '@/components/Inventory/InventoryBlock.vue';
 import LobbyBlock from '@/components/Lobby/LobbyBlock.vue';
+import ItemInformationBlock from '@/components/Inventory/ItemInformationBlock.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,6 +23,11 @@ const router = createRouter({
           path: 'inventory',
           name: 'inventory',
           component: InventoryBlock,
+        },
+        {
+          path: 'item',
+          name: 'item',
+          component: ItemInformationBlock,
         },
         {
           path: 'lobby',

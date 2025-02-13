@@ -4,7 +4,7 @@
 
 <template>
   <div class="nav-menu">
-    <router-link :to="'lobby'" class="nav-menu-button">{{'<<'}}</router-link>
+    <router-link :to="'lobby'" class="nav-menu-button">{{ '<<' }}</router-link>
     <router-link :to="'map'" class="nav-menu-button">Map</router-link>
     <router-link :to="'inventory'" class="nav-menu-button">Inventory</router-link>
     <div class="nav-menu-button">Status</div>
@@ -13,11 +13,10 @@
 
 <style scoped>
 .nav-menu-button {
-  color: #181818;
-  background-color: #ababab;
+  color: white;
+  background-color: #282828;
   user-select: none;
   cursor: pointer;
-  border-bottom: 1px black solid;
   height: 50px;
   width: 100%;
   display: flex;
@@ -32,6 +31,7 @@
 }
 
 .nav-menu {
+  height: 50px;
   display: flex;
 }
 </style>

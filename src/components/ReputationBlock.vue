@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import type { AllLocations } from '@/utilites/LocationsList.ts';
 const reputation = ['I', 'II', 'III', 'IV', 'V'];
-const {currentLocation} = defineProps<{currentLocation: AllLocations}>()
+const { currentLocation } = defineProps<{ currentLocation: AllLocations }>();
 </script>
 <template>
   <div class="location-reputation-block">
     <div class="small-text">reputation</div>
     <div class="reputation-elements-wrapper">
       <div
-        class="reputation-element-wrapper"
         v-for="(rep, i) in currentLocation.reputation"
         :key="i"
+        class="reputation-element-wrapper"
       >
         <div class="reputation-element">{{ reputation[i] }}</div>
         <div
@@ -23,7 +23,6 @@ const {currentLocation} = defineProps<{currentLocation: AllLocations}>()
   </div>
 </template>
 <style scoped>
-
 .location-reputation-block {
   gap: 3px;
   display: flex;
@@ -95,5 +94,4 @@ const {currentLocation} = defineProps<{currentLocation: AllLocations}>()
   border: white 3px solid;
   border-radius: 30px;
 }
-
 </style>
