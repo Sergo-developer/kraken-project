@@ -2,7 +2,6 @@
 import type { SubLocations } from '@/utilites/LocationsList.ts';
 
 const { subLocations } = defineProps<{ subLocations: SubLocations }>();
-
 </script>
 <template>
   <div v-for="(location, i) in subLocations" :key="i">
@@ -17,7 +16,6 @@ const { subLocations } = defineProps<{ subLocations: SubLocations }>();
   </div>
 </template>
 <style scoped>
-
 .sub-location-block {
   display: flex;
   align-items: center;
@@ -52,7 +50,6 @@ const { subLocations } = defineProps<{ subLocations: SubLocations }>();
   background-image: url('../../../public/sprites/smallIcons/oxygen.png');
 }
 
-
 .location-name {
   display: flex;
   margin-left: 20px;
@@ -70,5 +67,4 @@ const { subLocations } = defineProps<{ subLocations: SubLocations }>();
 .small-text {
   font-size: 10px;
 }
-
 </style>

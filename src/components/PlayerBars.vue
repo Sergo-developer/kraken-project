@@ -1,24 +1,23 @@
 <script setup lang="ts">
-const xpBarFillPercent: string = '77%'
-
+const xpBarFillPercent: string = '77%';
 </script>
 
 <template>
   <div class="main-bars-wrapper">
-  <div class="experience-bar-wrapper">
-    <div class="experience-bar-level">12</div>
-    <div class="experience-bar-background">
-      <div :style="{width: xpBarFillPercent}" class="experience-bar-fill">999/1000</div>
+    <div class="experience-bar-wrapper">
+      <div class="experience-bar-level">12</div>
+      <div class="experience-bar-background">
+        <div :style="{ width: xpBarFillPercent }" class="experience-bar-fill">999/1000</div>
+      </div>
     </div>
-  </div>
-  <div class="bar-wrapper">
-    <div class="player-status-bar-background">
-      <div :style="{width: xpBarFillPercent}" class="bar-fill hp">Health 100/100</div>
+    <div class="bar-wrapper">
+      <div class="player-status-bar-background">
+        <div :style="{ width: xpBarFillPercent }" class="bar-fill hp">Health 100/100</div>
+      </div>
+      <div class="player-status-bar-background">
+        <div :style="{ width: xpBarFillPercent }" class="bar-fill oxygen">Oxygen 30/30</div>
+      </div>
     </div>
-    <div class="player-status-bar-background">
-      <div :style="{width: xpBarFillPercent}" class="bar-fill oxygen">Oxygen 30/30</div>
-    </div>
-  </div>
   </div>
 </template>
 
@@ -93,5 +92,4 @@ const xpBarFillPercent: string = '77%'
   color: white;
   display: flex;
 }
-
 </style>
