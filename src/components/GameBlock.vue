@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue';
+import PlayerBars from '@/components/PlayerBars.vue';
 
 const imageSrc = '/sprites/locationMaps/testMap.png';
 
@@ -13,6 +14,7 @@ const colorMap = {
 
 const pixelMap = ref([]);
 const characterPosition = ref({ x: 0, y: 0 });
+const characterRotation = ref('down');
 const gameCamera = ref(null);
 
 const loadImage = () => {
@@ -67,6 +69,7 @@ const characterMove = (direction) => {
   };
 
   const move = moves[direction];
+  characterRotation.value = direction;
   if (move) {
     const newX = characterPosition.value.x + move.x;
     const newY = characterPosition.value.y + move.y;
@@ -106,14 +109,15 @@ watch(characterPosition, updateCamera);
             :class="{ playableZone: tile !== 'empty', missing: tile === 'missing' }"
             class="tile"
           >
-            <div v-if="tile === 'player'" class="prop character"></div>
-            <div v-if="tile === 'interactiveObject'">[]</div>
+            <div v-if="tile === 'player'" :class="characterRotation" class="prop character"></div>
+            <div v-if="tile === 'interactiveObject'" class="prop chest"></div>
             <div v-if="tile === 'exit'">Exit</div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <player-bars></player-bars>
   <div class="controls">
     <div class="move-buttons">
       <div class="move-button-element button-left" @click="characterMove('left')"></div>
@@ -199,6 +203,26 @@ watch(characterPosition, updateCamera);
   background-image: url('/sprites/characters/char0.png');
 }
 
+.character.down {
+  background-position-y: 0;
+}
+
+.character.right {
+  background-position-y: -128px;
+}
+
+.character.left {
+  background-position-y: -256px;
+}
+
+.character.up {
+  background-position-y: -384px;
+}
+
+.chest {
+  background-image: url('/sprites/props/chest.png');
+}
+
 .prop {
   background-size: var(--tile-size);
   background-repeat: no-repeat;
@@ -213,16 +237,19 @@ watch(characterPosition, updateCamera);
 .tile {
   background-size: var(--tile-size);
   background-repeat: no-repeat;
-  border: rgba(255, 255, 255, 0.27) 1px dashed;
   width: var(--tile-size);
   height: var(--tile-size);
+}
+
+.tile.grid {
+  border: rgba(255, 255, 255, 0.27) 1px dashed;
 }
 
 .controls {
   width: 100%;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 5px;
   display: flex;
   gap: 10px;
 }
