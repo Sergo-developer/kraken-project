@@ -5,6 +5,7 @@
 <template>
   <div class="nav-menu">
     <router-link :to="'lobby'" class="nav-menu-button">{{ '<<' }}</router-link>
+    <router-link :to="'game'" class="nav-menu-button">WIP game</router-link>
     <router-link :to="'map'" class="nav-menu-button">Map</router-link>
     <router-link :to="'inventory'" class="nav-menu-button">Inventory</router-link>
     <div class="nav-menu-button">Status</div>

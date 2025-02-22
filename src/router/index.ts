@@ -5,6 +5,7 @@ import MerchantBlock from '@/components/Merchant/MerchantBlock.vue';
 import InventoryBlock from '@/components/Inventory/InventoryBlock.vue';
 import LobbyBlock from '@/components/Lobby/LobbyBlock.vue';
 import ItemInformationBlock from '@/components/Inventory/ItemInformationBlock.vue';
+import GameBlock from '@/components/GameBlock.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,11 @@ const router = createRouter({
       name: 'main',
       component: MainBlock,
       children: [
+        {
+          path: 'game',
+          name: 'game',
+          component: GameBlock,
+        },
         {
           path: 'map',
           name: 'map',
