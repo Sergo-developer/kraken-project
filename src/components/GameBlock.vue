@@ -8,11 +8,13 @@ const imageSrc = '/sprites/locationMaps/testMap.png';
 const colorMap = {
   '#000000': 'playableZone',
   '#ff0000': 'player',
+  '#0026ff': 'exit',
+  '#b200ff': 'interactiveObject',
   '#ffffff': 'empty',
 };
 
-// Массив пикселей
 const pixelMap = ref([]);
+const characterPosition = ref({ x: 0, y: 0 });
 
 const loadImage = () => {
   const img = new Image();
@@ -42,7 +44,13 @@ const processImage = (img) => {
       const b = data[index + 2];
 
       const hex = rgbToHex(r, g, b);
-      row.push(colorMap[hex] || 'missing'); // Если цвет есть в colorMap → назначаем значение, иначе null
+      const tileType = colorMap[hex] || 'missing';
+      row.push(tileType);
+
+      // Если найден игрок, записываем его координаты
+      if (tileType === 'player') {
+        characterPosition.value = { x, y };
+      }
     }
     result.push(row);
   }
@@ -52,6 +60,27 @@ const processImage = (img) => {
 // Функция перевода RGB в HEX
 const rgbToHex = (r, g, b) => {
   return `#${((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1)}`;
+};
+
+const characterMove = (direction) => {
+  const moves = {
+    left: { x: 0, y: -1 },
+    right: { x: 0, y: 1 },
+    up: { x: -1, y: 0 },
+    down: { x: 1, y: 0 },
+  };
+
+  const move = moves[direction];
+  if (move) {
+    const newX = characterPosition.value.x + move.x;
+    const newY = characterPosition.value.y + move.y;
+
+    if (pixelMap.value[newY] && pixelMap.value[newY][newX] === 'playableZone') {
+      pixelMap.value[characterPosition.value.y][characterPosition.value.x] = 'playableZone';
+      characterPosition.value = { x: newX, y: newY };
+      pixelMap.value[newY][newX] = 'player';
+    }
+  }
 };
 
 onMounted(loadImage);
@@ -66,17 +95,26 @@ onMounted(loadImage);
         :class="{ playableZone: tile !== 'empty', missing: tile === 'missing' }"
         class="tile"
       >
-        <div v-if="tile === 'player'">s</div>
+        <div v-if="tile === 'player'">char</div>
+        <div v-if="tile === 'interactiveObject'">[]</div>
+        <div v-if="tile === 'exit'">Exit</div>
       </div>
     </div>
+  </div>
+  <div class="controls">
+    <button @click="characterMove('up')">Up</button>
+    <button @click="characterMove('down')">Down</button>
+    <button @click="characterMove('left')">Left</button>
+    <button @click="characterMove('right')">Right</button>
   </div>
 </template>
 
 <style scoped>
 .tiles-wrapper {
+  overflow: auto;
   background-color: black;
   width: 100%;
-  height: 100%;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,5 +137,12 @@ onMounted(loadImage);
   background-repeat: no-repeat;
   width: var(--tile-size);
   height: var(--tile-size);
+}
+
+.controls {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
 }
 </style>
