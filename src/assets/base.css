@@ -1,7 +1,7 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
 
-  --tile-size: 64px;
+  --tile-size: 128px;
 
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
