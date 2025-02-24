@@ -67,6 +67,12 @@ onMounted(() => {
           <map-marker :x="50" :y="230" :title="'Mayda-3'" @click="selectLocation('Mayda-3')" />
           <map-marker :x="500" :y="70" :title="'City'" @click="selectLocation('City')" />
           <map-marker :x="500" :y="160" :title="'Port'" @click="selectLocation('Port')" />
+          <map-marker
+            :x="825"
+            :y="-160"
+            :title="'Greenhouse'"
+            @click="selectLocation('Greenhouse')"
+          />
         </div>
       </div>
     </div>

@@ -96,7 +96,7 @@ export const allItemsList: Item[] = [
   {
     name: 'Box of nails',
     description: 'A box of nails',
-    quality: 'unique',
+    quality: 'common',
     price: 100,
     isBlocked: false,
     count: 1,

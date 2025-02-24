@@ -1,10 +1,11 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
-import type { AllLocations } from '@/utilites/LocationsList.ts';
+import type { AllLocations, SubLocations } from '@/utilites/LocationsList.ts';
 import { allLocations } from '@/utilites/LocationsList.ts';
 
 const useLocationStore = defineStore('locationStore', () => {
   const currentLocation = ref<AllLocations>(allLocations['Kraken-3']);
+  const currentSubLocations = ref<SubLocations>();
 
   const locationFromStore = localStorage.getItem('currentLocation');
   if (locationFromStore) {
@@ -18,6 +19,7 @@ const useLocationStore = defineStore('locationStore', () => {
 
   return {
     currentLocation,
+    currentSubLocations,
     setLocation,
   };
 });

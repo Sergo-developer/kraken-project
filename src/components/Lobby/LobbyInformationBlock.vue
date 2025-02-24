@@ -42,7 +42,7 @@ const { currentLocation } = defineProps<{ currentLocation: AllLocations }>();
 .location-main-block {
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 70px;
   border: 1px white solid;
   background-color: rgba(0, 0, 0, 0.25);
 }

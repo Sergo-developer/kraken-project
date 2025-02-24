@@ -1,10 +1,12 @@
-<script setup>
+<script lang="ts" setup>
 import { ref, onMounted, watch } from 'vue';
 import PlayerBars from '@/components/PlayerBars.vue';
-
+import useLocationStore from '@/stores/locationStore.ts';
+const location = useLocationStore();
 const imageSrc = '/sprites/locationMaps/testMap.png';
+type Directions = 'left' | 'right' | 'up' | 'down';
 
-const colorMap = {
+const colorMap: Record<string, string> = {
   '#000000': 'playableZone',
   '#ff0000': 'player',
   '#0026ff': 'exit',
@@ -12,10 +14,10 @@ const colorMap = {
   '#ffffff': 'empty',
 };
 
-const pixelMap = ref([]);
+const pixelMap = ref<string[][]>([]);
 const characterPosition = ref({ x: 0, y: 0 });
 const characterRotation = ref('down');
-const gameCamera = ref(null);
+const gameCamera = ref<HTMLDivElement>();
 
 const loadImage = () => {
   const img = new Image();
@@ -24,9 +26,13 @@ const loadImage = () => {
   img.onload = () => processImage(img);
 };
 
-const processImage = (img) => {
+const processImage = (img: HTMLImageElement) => {
   const canvas = document.createElement('canvas');
   const ctx = canvas.getContext('2d');
+
+  if (ctx === null) {
+    return;
+  }
 
   canvas.width = img.width;
   canvas.height = img.height;
@@ -58,9 +64,10 @@ const processImage = (img) => {
   updateCamera();
 };
 
-const rgbToHex = (r, g, b) => `#${((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1)}`;
+const rgbToHex = (r: number, g: number, b: number) =>
+  `#${((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1)}`;
 
-const characterMove = (direction) => {
+const characterMove = (direction: Directions) => {
   const moves = {
     left: { x: 0, y: -1 },
     right: { x: 0, y: 1 },
@@ -81,6 +88,7 @@ const characterMove = (direction) => {
       updateCamera();
     }
   }
+  console.log(characterPosition.value);
 };
 
 const updateCamera = () => {
@@ -91,6 +99,15 @@ const updateCamera = () => {
 
     gameCamera.value.style.transform = `translate(${centerX - characterPosition.value.y * tileSize}px, ${centerY - characterPosition.value.x * tileSize}px)`;
   }
+};
+
+const isPlayerNear = (x: number, y: number) => {
+  return (
+    (characterPosition.value.x === x && characterPosition.value.y === y + 1) ||
+    (characterPosition.value.x === x && characterPosition.value.y === y - 1) ||
+    (characterPosition.value.y === y && characterPosition.value.x === x + 1) ||
+    (characterPosition.value.y === y && characterPosition.value.x === x - 1)
+  );
 };
 
 onMounted(loadImage);
@@ -110,7 +127,12 @@ watch(characterPosition, updateCamera);
             class="tile"
           >
             <div v-if="tile === 'player'" :class="characterRotation" class="prop character"></div>
-            <div v-if="tile === 'interactiveObject'" class="prop chest"></div>
+            <div
+              v-if="tile === 'interactiveObject'"
+              :class="{ 'near-player': isPlayerNear(j, i) }"
+              title="prop"
+              class="prop chest"
+            ></div>
             <div v-if="tile === 'exit'">Exit</div>
           </div>
         </div>
@@ -224,10 +246,17 @@ watch(characterPosition, updateCamera);
 }
 
 .prop {
+  cursor: help;
   background-size: var(--tile-size);
   background-repeat: no-repeat;
   width: var(--tile-size);
   height: var(--tile-size);
+}
+
+.prop.near-player {
+  cursor: pointer;
+  filter: drop-shadow(-2px 0 0 #ffffff) drop-shadow(2px 0 0 #ffffff) drop-shadow(0 -2px 0 #ffffff)
+    drop-shadow(0 2px 0 #ffffff);
 }
 
 .grid-tile {

@@ -94,6 +94,7 @@ const { currentLocation } = useLocationStore();
 
 .lobby-interactive-block {
   width: 50%;
+  gap: 5px;
   display: flex;
   flex-flow: column;
 }

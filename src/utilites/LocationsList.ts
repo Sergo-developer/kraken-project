@@ -3,6 +3,7 @@ type SubLocationsTypes = 'open' | 'close' | 'dungeon';
 export type SubLocations = {
   type: SubLocationsTypes;
   name: string;
+  map: string;
   levelMin: number;
   levelMax: number;
 };
@@ -33,9 +34,13 @@ export const allLocations: Record<string, AllLocations> = {
       { name: 'something', merchantItemsIndexes: [8, 9, 10] },
     ],
     subLocations: [
-      { type: 'open', name: 'Hangar', levelMin: 1, levelMax: 5 },
-      { type: 'close', name: 'notHangar', levelMin: 1, levelMax: 5 },
-      { type: 'dungeon', name: 'Abandoned hide', levelMin: 1, levelMax: 5 },
+      {
+        type: 'open',
+        name: 'Hangar',
+        levelMin: 1,
+        map: '/sprites/locationMaps/testMap.png',
+        levelMax: 5,
+      },
     ],
   },
 };
