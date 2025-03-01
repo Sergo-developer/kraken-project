@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import useItemStore from '@/stores/itemStore.ts';
 import InventoryItem from '@/components/Inventory/InventoryItem.vue';
-import router from '@/router';
 import type { Item } from '@/utilites/ItemsList.ts';
+import ItemCheatMenu from '@/components/Inventory/ItemCheatMenu.vue';
+import ItemTooltipPopup from '@/components/Inventory/ItemTooltipPopup.vue';
 
 const inventoryStore = useItemStore();
 
 const showItemInfo = (item: Item) => {
   inventoryStore.selectItem(item);
-  router.push('/item');
 };
 </script>
 
@@ -45,6 +45,8 @@ const showItemInfo = (item: Item) => {
       </div>
     </div>
   </div>
+  <item-tooltip-popup v-if="inventoryStore.selectedItem" />
+  <item-cheat-menu v-if="false" />
 </template>
 
 <style scoped>

@@ -43,4 +43,27 @@ export const allLocations: Record<string, AllLocations> = {
       },
     ],
   },
+  Greenhouse: {
+    name: 'Greenhouse',
+    description:
+      'The largest agronomic complex on Titan, becoming a major source of food after Earth cut off its supply. Despite the damage, the complex continues to feed the small population of the City by the Kraken mare.',
+    icon: '/sprites/locations/greenhouse-icon.png',
+    background: '/sprites/locations/bg2.png',
+    levelMin: 1,
+    levelMax: 10,
+    reputation: [
+      { name: 'loh', merchantItemsIndexes: [0, 1, 2] },
+      { name: 'crutoi', merchantItemsIndexes: [5, 6, 7] },
+      { name: 'something', merchantItemsIndexes: [8, 9, 10] },
+    ],
+    subLocations: [
+      {
+        type: 'open',
+        name: 'pale halls',
+        levelMin: 1,
+        map: '/sprites/locationMaps/testMap.png',
+        levelMax: 5,
+      },
+    ],
+  },
 };

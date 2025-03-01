@@ -4,7 +4,7 @@ import MapBlock from '@/components/Map/MapBlock.vue';
 import MerchantBlock from '@/components/Merchant/MerchantBlock.vue';
 import InventoryBlock from '@/components/Inventory/InventoryBlock.vue';
 import LobbyBlock from '@/components/Lobby/LobbyBlock.vue';
-import ItemInformationBlock from '@/components/Inventory/ItemInformationBlock.vue';
+import ItemInformationBlock from '@/components/Inventory/ItemTooltipPopup.vue';
 import GameBlock from '@/components/GameBlock.vue';
 
 const router = createRouter({
@@ -29,11 +29,6 @@ const router = createRouter({
           path: 'inventory',
           name: 'inventory',
           component: InventoryBlock,
-        },
-        {
-          path: 'item',
-          name: 'item',
-          component: ItemInformationBlock,
         },
         {
           path: 'lobby',

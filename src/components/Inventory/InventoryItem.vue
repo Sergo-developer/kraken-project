@@ -1,18 +1,11 @@
 <script setup lang="ts">
-import { type Item, quality } from '@/utilites/ItemsList.ts';
+import { type Item, qualityColor } from '@/utilites/ItemsList.ts';
 
 const { item } = defineProps<{ item: Item | undefined }>();
 </script>
 
 <template>
-  <div
-    v-if="item"
-    :style="{
-      borderLeft: `2px ${quality[item.quality]} solid`,
-      borderBottom: `2px ${quality[item.quality]} solid`,
-    }"
-    class="inventory-item"
-  >
+  <div v-if="item" :style="{ backgroundColor: qualityColor[item.quality] }" class="inventory-item">
     <div class="inventory-image" :style="{ backgroundImage: `url(${item.image})` }">
       <div>{{ item.count }}</div>
     </div>
@@ -30,6 +23,8 @@ const { item } = defineProps<{ item: Item | undefined }>();
 }
 
 .inventory-item {
+  background-image: url('/sprites/background/itemBackground.png');
+  background-size: 48px;
   cursor: pointer;
   height: 100%;
 }

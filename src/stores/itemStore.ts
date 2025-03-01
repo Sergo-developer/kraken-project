@@ -6,7 +6,7 @@ import { allItemsList } from '@/utilites/ItemsList.ts';
 const useItemStore = defineStore('itemStore', () => {
   const inventoryItems = ref<Item[] | []>(new Array(40));
 
-  const selectedItem = ref<Item>();
+  const selectedItem = ref<Item | null>(null);
 
   const inventoryFromStore = localStorage.getItem('inventoryItems');
   if (inventoryFromStore) {
@@ -42,11 +42,16 @@ const useItemStore = defineStore('itemStore', () => {
     selectedItem.value = item;
   };
 
+  const unselectItem = () => {
+    selectedItem.value = null;
+  };
+
   return {
     inventoryItems,
     addInventoryItems,
     selectItem,
     selectedItem,
+    unselectItem,
   };
 });
 

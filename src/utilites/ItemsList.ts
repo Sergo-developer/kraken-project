@@ -1,7 +1,7 @@
-export const quality = {
-  common: '#ffffff',
-  uncommon: '#00ff15',
-  military: '#0033ff',
+export const qualityColor = {
+  common: '#b9b9b9',
+  uncommon: '#226e22',
+  military: '#1f2c5e',
   classified: '#8e00ff',
   prototype: '#ff0000',
   unique: '#ffcc00',
@@ -96,7 +96,7 @@ export const allItemsList: Item[] = [
   {
     name: 'Box of nails',
     description: 'A box of nails',
-    quality: 'common',
+    quality: 'classified',
     price: 100,
     isBlocked: false,
     count: 1,
@@ -106,13 +106,38 @@ export const allItemsList: Item[] = [
     },
   },
   {
+    name: 'Oscilloscope',
+    description:
+      "It used to belong to a research institute, but now it's yours, and even the supervisor won't notice.",
+    quality: 'uncommon',
+    price: 100,
+    isBlocked: false,
+    count: 1,
+    image: '/sprites/items/oscilloscope.png',
+    attribute: {
+      type: 'junk',
+    },
+  },
+  {
     name: 'Silicone grease',
     description: 'Will make move what should move',
-    quality: 'common',
+    quality: 'uncommon',
     price: 200,
     isBlocked: false,
     count: 1,
     image: '/sprites/items/grease.png',
+    attribute: {
+      type: 'junk',
+    },
+  },
+  {
+    name: 'Military transmitter',
+    description: 'A military transmitter that transmits military stuff',
+    quality: 'military',
+    price: 2500,
+    isBlocked: false,
+    count: 1,
+    image: '/sprites/items/repeater.png',
     attribute: {
       type: 'junk',
     },
