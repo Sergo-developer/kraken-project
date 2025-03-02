@@ -1,8 +1,8 @@
 export const qualityColor = {
-  common: '#b9b9b9',
-  uncommon: '#226e22',
-  military: '#1f2c5e',
-  classified: '#8e00ff',
+  common: '#ffffff',
+  uncommon: '#66ad66',
+  military: '#8da0fd',
+  classified: '#7a44a4',
   prototype: '#ff0000',
   unique: '#ffcc00',
 };
@@ -96,7 +96,7 @@ export const allItemsList: Item[] = [
   {
     name: 'Box of nails',
     description: 'A box of nails',
-    quality: 'classified',
+    quality: 'common',
     price: 100,
     isBlocked: false,
     count: 1,
@@ -151,6 +151,31 @@ export const allItemsList: Item[] = [
     isBlocked: false,
     count: 1,
     image: '/sprites/items/hammer.png',
+    attribute: {
+      type: 'junk',
+    },
+  },
+  {
+    name: 'gigarine',
+    description: 'orange',
+    quality: 'unique',
+    price: 3900,
+    isBlocked: false,
+    count: 1,
+    image: '/sprites/items/gigarine.png',
+    attribute: {
+      type: 'junk',
+    },
+  },
+  {
+    name: 'Grachev resonator',
+    description:
+      "Grachev resonator - the device allows quantum communication without the use of a “quantum transmission mast”. But it works once in a while and with such a terrible lag, so, by God, you'd better find a way to get on the air with the help of a “mast”",
+    quality: 'classified',
+    price: 99000,
+    isBlocked: false,
+    count: 1,
+    image: '/sprites/items/wierdTech.png',
     attribute: {
       type: 'junk',
     },

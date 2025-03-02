@@ -5,9 +5,13 @@ const { item } = defineProps<{ item: Item | undefined }>();
 </script>
 
 <template>
-  <div v-if="item" :style="{ backgroundColor: qualityColor[item.quality] }" class="inventory-item">
+  <div
+    v-if="item"
+    :style="{ border: qualityColor[item.quality] + ', 3px, solid' }"
+    class="inventory-item"
+  >
     <div class="inventory-image" :style="{ backgroundImage: `url(${item.image})` }">
-      <div>{{ item.count }}</div>
+      <div>{{ item.count ? item.count : '' }}</div>
     </div>
   </div>
 </template>
@@ -23,7 +27,6 @@ const { item } = defineProps<{ item: Item | undefined }>();
 }
 
 .inventory-item {
-  background-image: url('/sprites/background/itemBackground.png');
   background-size: 48px;
   cursor: pointer;
   height: 100%;

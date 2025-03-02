@@ -1,38 +1,43 @@
 <script setup lang="ts">
 import useItemStore from '@/stores/itemStore.ts';
-import SubLocationsBlock from '@/components/Lobby/SubLocationsBlock.vue';
-import ReputationBlock from '@/components/ReputationBlock.vue';
-
-const itemStore = useItemStore();
+import { qualityColor } from '@/utilites/ItemsList.ts';
+const { unselectItem, selectedItem } = useItemStore();
 </script>
 
 <template>
   <div class="popup-shade">
-    <div class="tooltip-body">
-      <div class="close-button-wrapper"><div @click="itemStore.unselectItem()">x</div></div>
-      <div class="location-info-wrapper">
+    <div v-if="selectedItem !== null" class="tooltip-body">
+      <div class="close-button-wrapper"><div @click="unselectItem">x</div></div>
+      <div class="item-info-wrapper">
         <div class="top-wrapper">
-          <div
-            :style="{ backgroundImage: `url(${selectedLocation.icon})` }"
-            class="location-ico"
-          ></div>
-          <div class="level-wrapper">
-            <div>lvl</div>
-            <div>
-              {{ `${selectedLocation.levelMin}-${selectedLocation.levelMax}` }}
-            </div>
-          </div>
-          <div class="location-name">
-            {{ `• ${selectedLocation.name}` }}
+          <div :style="{ backgroundImage: `url(${selectedItem?.image})` }" class="item-image"></div>
+          <div class="item-name-wrapper">
+            <span
+              class="item-name"
+              :style="{
+                fontSize: selectedItem.name.length <= 10 ? '28px' : '21px',
+                color: qualityColor[selectedItem.quality],
+              }"
+            >
+              {{ selectedItem.name }}
+            </span>
+            <span
+              class="item-sub-name"
+              :style="{
+                color: qualityColor[selectedItem.quality],
+              }"
+            >
+              {{ selectedItem.quality }}
+            </span>
+            <span class="item-sub-name">{{ selectedItem.attribute.type }}</span>
+            <span class="item-sub-name price">{{ selectedItem.price }}</span>
           </div>
         </div>
         <div class="description-wrapper">
-          {{ selectedLocation.description }}
+          {{ selectedItem.description }}
         </div>
-        <reputation-block :current-location="selectedLocation" />
-        <sub-locations-block :sub-locations="selectedLocation.subLocations" />
-        <div class="to-location-button expedition" @click="onClickSendToLocation">
-          <div>To location</div>
+        <div class="use-button" @click="() => {}">
+          <div>Use</div>
         </div>
       </div>
     </div>
@@ -40,12 +45,151 @@ const itemStore = useItemStore();
 </template>
 
 <style scoped>
+.price::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('/sprites/currency/obligation.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.item-name-wrapper {
+  text-align: center;
+  width: 300px;
+  display: flex;
+  gap: 5px;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .close-button-wrapper {
   cursor: pointer;
   display: flex;
   width: 100%;
   justify-content: flex-end;
   padding-right: 10px;
+}
+
+.use-button {
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  border: 1px solid white;
+  border-top: none;
+  color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 0.25) 0%,
+    rgba(255, 0, 0, 0.13) 50%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.use-button:hover {
+  text-shadow: black 0 3px 3px;
+  background-size: 160px;
+  background-image: url('/sprites/background/bgMozaicRed.png');
+  animation: button-slide 10s linear infinite;
+  color: red;
+}
+
+@keyframes button-slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
+
+.item-info-wrapper {
+  padding-right: 28px;
+  padding-left: 28px;
+}
+
+.description-wrapper {
+  height: 150px;
+  padding: 10px;
+  font-size: 12px;
+  border-bottom: white 1px solid;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.13) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.item-name {
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.item-sub-name {
+  display: flex;
+  font-size: 12px;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.level-wrapper {
+  width: 90px;
+  height: 150px;
+  font-size: 19px;
+  flex-flow: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: white 1px solid;
+}
+
+.top-wrapper {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.13) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100%;
+  display: flex;
+  border: white 1px solid;
+}
+
+.item-image {
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  border-right: white 1px solid;
+}
+
+.close-button-wrapper {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.location-info {
+  background-image: url('public/sprites/background/bgMozaic.png');
+  background-size: 150px;
+  border: white 1px solid;
+  transform: translate(50px, -740px);
+  width: 600px;
+  height: 650px;
 }
 
 .tooltip-body {

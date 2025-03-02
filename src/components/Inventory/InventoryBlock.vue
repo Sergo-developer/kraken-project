@@ -46,18 +46,10 @@ const showItemInfo = (item: Item) => {
     </div>
   </div>
   <item-tooltip-popup v-if="inventoryStore.selectedItem" />
-  <item-cheat-menu v-if="false" />
+  <item-cheat-menu v-if="true" />
 </template>
 
 <style scoped>
-.item-info {
-  background-image: url('public/sprites/background/bgMozaic.png');
-  background-size: 150px;
-  border: white 1px solid;
-  transform: translate(50px, -740px);
-  width: 600px;
-  height: 650px;
-}
 
 .inventory-character-item.suit {
   width: 140px;

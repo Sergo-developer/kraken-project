@@ -1,14 +1,11 @@
 <script setup lang="ts">
 import router from '@/router/index.js';
 import useLocationStore from '@/stores/locationStore.ts';
-import { computed, ref } from 'vue';
 import type { AllLocations } from '@/utilites/LocationsList.ts';
 import ReputationBlock from '@/components/ReputationBlock.vue';
 import SubLocationsBlock from '@/components/Lobby/SubLocationsBlock.vue';
 const locationStore = useLocationStore();
 const { selectedLocation } = defineProps<{ selectedLocation: AllLocations | null }>();
-
-const emit = defineEmits(['close-popup']);
 
 const onClickSendToLocation = () => {
   if (selectedLocation === null) {
@@ -24,11 +21,11 @@ const onClickSendToLocation = () => {
     <div class="close-button-wrapper">
       <div @click="$emit('close-popup')">x</div>
     </div>
-    <div class="location-info-wrapper">
+    <div class="item-info-wrapper">
       <div class="top-wrapper">
         <div
           :style="{ backgroundImage: `url(${selectedLocation.icon})` }"
-          class="location-ico"
+          class="item-image"
         ></div>
         <div class="level-wrapper">
           <div>lvl</div>
@@ -45,7 +42,7 @@ const onClickSendToLocation = () => {
       </div>
       <reputation-block :current-location="selectedLocation" />
       <sub-locations-block :sub-locations="selectedLocation.subLocations" />
-      <div class="to-location-button expedition" @click="onClickSendToLocation">
+      <div class="use-button expedition" @click="onClickSendToLocation">
         <div>To location</div>
       </div>
     </div>
@@ -53,7 +50,7 @@ const onClickSendToLocation = () => {
 </template>
 
 <style scoped>
-.to-location-button {
+.use-button {
   user-select: none;
   cursor: pointer;
   display: flex;
@@ -72,7 +69,7 @@ const onClickSendToLocation = () => {
   );
 }
 
-.to-location-button:hover {
+.use-button:hover {
   text-shadow: black 0 3px 3px;
   background-size: 160px;
   background-image: url('/sprites/background/bgMozaicRed.png');
@@ -89,7 +86,7 @@ const onClickSendToLocation = () => {
   }
 }
 
-.location-info-wrapper {
+.item-info-wrapper {
   margin-left: 28px;
   margin-right: 28px;
 }
@@ -135,7 +132,7 @@ const onClickSendToLocation = () => {
   border: white 1px solid;
 }
 
-.location-ico {
+.item-image {
   background-size: 150px;
   width: 150px;
   height: 150px;
@@ -157,20 +154,5 @@ const onClickSendToLocation = () => {
   transform: translate(50px, -740px);
   width: 600px;
   height: 650px;
-}
-
-@keyframes animate-sea {
-  0% {
-    background-image: url('/sprites/map/sea.png');
-  }
-  25% {
-    background-image: url('/sprites/map/sea0.png');
-  }
-  75% {
-    background-image: url('/sprites/map/sea1.png');
-  }
-  100% {
-    background-image: url('/sprites/map/sea0.png');
-  }
 }
 </style>
