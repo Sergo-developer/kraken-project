@@ -2,16 +2,47 @@
 import { ref, onMounted, watch } from 'vue';
 import PlayerBars from '@/components/PlayerBars.vue';
 import useLocationStore from '@/stores/locationStore.ts';
-const location = useLocationStore();
-const imageSrc = '/sprites/locationMaps/testMap.png';
+const { currentSubLocation } = useLocationStore();
+const imageSrc = currentSubLocation?.map;
 type Directions = 'left' | 'right' | 'up' | 'down';
 
 const colorMap: Record<string, string> = {
   '#000000': 'playableZone',
+  '#404040': 'playableZone2',
+  '#808080': 'playableZone3',
   '#ff0000': 'player',
   '#0026ff': 'exit',
   '#b200ff': 'interactiveObject',
+  '#4cff00': 'decorationObject',
   '#ffffff': 'empty',
+};
+
+const getTileTextureOnRender = (zoneType: string) => {
+  const locationTextures = currentSubLocation?.textures;
+  if (!locationTextures) {
+    return '/sprites/tiles/missing.png';
+  }
+  if (zoneType === 'playableZone') {
+    return locationTextures[0];
+  }
+  if (zoneType === 'playableZone2') {
+    return locationTextures[1];
+  }
+  if (zoneType === 'playableZone3') {
+    return locationTextures[2];
+  }
+  if (zoneType !== 'empty') {
+    return locationTextures[0];
+  }
+};
+const getPropTextureOnRender = () => {
+  const propsTextures = currentSubLocation?.props;
+  if (propsTextures === undefined) {
+    return '/sprites/tiles/missing.png';
+  }
+  const randomPropTextureIndex = Math.floor(Math.random() * propsTextures.length);
+  console.log(propsTextures.length + 'index of');
+  return propsTextures[randomPropTextureIndex];
 };
 
 const pixelMap = ref<string[][]>([]);
@@ -123,6 +154,7 @@ watch(characterPosition, updateCamera);
           <div
             v-for="(tile, j) in row"
             :key="j"
+            :style="{ backgroundImage: `url(${getTileTextureOnRender(tile)})` }"
             :class="{ playableZone: tile !== 'empty', missing: tile === 'missing' }"
             class="tile"
           >
@@ -132,6 +164,12 @@ watch(characterPosition, updateCamera);
               :class="{ 'near-player': isPlayerNear(j, i) }"
               title="prop"
               class="prop chest"
+            ></div>
+            <div
+              v-if="tile === 'decorationObject'"
+              :style="{ backgroundImage: `url(${getPropTextureOnRender()})` }"
+              title="prop"
+              class="prop"
             ></div>
             <div v-if="tile === 'exit'">Exit</div>
           </div>

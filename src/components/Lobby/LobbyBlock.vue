@@ -2,18 +2,32 @@
 import PlayerBars from '@/components/PlayerBars.vue';
 import LobbyInformationBlock from '@/components/Lobby/LobbyInformationBlock.vue';
 import useLocationStore from '@/stores/locationStore.ts';
-const { currentLocation } = useLocationStore();
+import router from '@/router';
+import { storeToRefs } from 'pinia';
+const locationStore = useLocationStore();
+const { currentLocation, currentSubLocation } = storeToRefs(locationStore);
+
+const onClickToExpedition = () => {
+  if (currentSubLocation.value) {
+    router.push('game');
+  }
+};
 </script>
 
 <template>
-  <div :style="{ backgroundImage: `url(${currentLocation.background})` }" class="lobby-image">Переделай как-то бары бля...</div>
+  <div :style="{ backgroundImage: `url(${currentLocation.background})` }" class="lobby-image">
+    Переделай как-то бары бля...
+  </div>
   <player-bars />
   <div class="lobby-wrapper">
     <lobby-information-block :currentLocation />
     <div class="lobby-interactive-block">
-      <div class="lobby-button expedition">
-        <div>In expedition</div>
-        <div class="location-icon"></div>
+      <div class="lobby-button expedition" @click="onClickToExpedition()">
+        <div v-if="!currentSubLocation">...</div>
+        <div v-else class="subLocation-button-info">
+          <span>In expedition</span>
+          <span>{{ `"${currentSubLocation?.name}"` }}</span>
+        </div>
       </div>
       <div class="lobby-bottom-buttons">
         <router-link :to="'merchant'" class="lobby-button">Merchant</router-link>
@@ -25,6 +39,12 @@ const { currentLocation } = useLocationStore();
 </template>
 
 <style scoped>
+.subLocation-button-info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
 .location-icon {
   background-position: center;
   background-repeat: no-repeat;

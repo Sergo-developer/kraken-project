@@ -169,7 +169,9 @@ const { unselectItem, selectedItem } = useItemStore();
 }
 
 .item-image {
-  background-size: 150px;
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 150px;
   height: 150px;
   border-right: white 1px solid;

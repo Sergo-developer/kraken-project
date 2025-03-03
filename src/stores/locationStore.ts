@@ -5,7 +5,7 @@ import { allLocations } from '@/utilites/LocationsList.ts';
 
 const useLocationStore = defineStore('locationStore', () => {
   const currentLocation = ref<AllLocations>(allLocations['Kraken-3']);
-  const currentSubLocations = ref<SubLocations>();
+  const currentSubLocation = ref<SubLocations>();
 
   const locationFromStore = localStorage.getItem('currentLocation');
   if (locationFromStore) {
@@ -17,9 +17,14 @@ const useLocationStore = defineStore('locationStore', () => {
     localStorage.setItem('currentLocation', JSON.stringify(locationToSet));
   };
 
+  const setSubLocation = (SubLocationToSet: SubLocations) => {
+    currentSubLocation.value = SubLocationToSet;
+  };
+
   return {
     currentLocation,
-    currentSubLocations,
+    currentSubLocation,
+    setSubLocation,
     setLocation,
   };
 });

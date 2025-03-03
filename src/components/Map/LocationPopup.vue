@@ -23,10 +23,7 @@ const onClickSendToLocation = () => {
     </div>
     <div class="item-info-wrapper">
       <div class="top-wrapper">
-        <div
-          :style="{ backgroundImage: `url(${selectedLocation.icon})` }"
-          class="item-image"
-        ></div>
+        <div :style="{ backgroundImage: `url(${selectedLocation.icon})` }" class="item-image"></div>
         <div class="level-wrapper">
           <div>lvl</div>
           <div>

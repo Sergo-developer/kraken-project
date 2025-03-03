@@ -46,11 +46,10 @@ const showItemInfo = (item: Item) => {
     </div>
   </div>
   <item-tooltip-popup v-if="inventoryStore.selectedItem" />
-  <item-cheat-menu v-if="true" />
+  <item-cheat-menu v-if="false" />
 </template>
 
 <style scoped>
-
 .inventory-character-item.suit {
   width: 140px;
   height: 280px;
