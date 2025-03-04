@@ -41,9 +41,17 @@ export const allLocations: Record<string, AllLocations> = {
         name: 'Hangar',
         levelMin: 1,
         levelMax: 5,
-        props: [''],
-        map: '/sprites/locationMaps/testMap.png',
-        textures: ['/sprites/tiles/metalFloor.png'],
+        map: '/sprites/locationMaps/hangar.png',
+        props: [
+          '/sprites/props/deadBush.png',
+          '/sprites/props/deadBush2.png',
+          '/sprites/props/deadBush3.png',
+        ],
+        textures: [
+          '/sprites/tiles/metalFloor.png',
+          '/sprites/tiles/glassMetalFloor.png',
+          '/sprites/tiles/grassMono.png',
+        ],
       },
     ],
   },
@@ -70,6 +78,7 @@ export const allLocations: Record<string, AllLocations> = {
         props: [
           '/sprites/props/deadBush.png',
           '/sprites/props/deadBush2.png',
+          '/sprites/props/deadBush3.png',
         ],
         textures: [
           '/sprites/tiles/metalFloor.png',

@@ -1,10 +1,25 @@
 <script lang="ts" setup>
-import { ref, onMounted, watch } from 'vue';
+import { ref, onMounted, watch, onUnmounted } from 'vue';
 import PlayerBars from '@/components/PlayerBars.vue';
 import useLocationStore from '@/stores/locationStore.ts';
+
 const { currentSubLocation } = useLocationStore();
 const imageSrc = currentSubLocation?.map;
+const pixelMap = ref<string[][]>([]);
+const propsPosition = ref<string[][]>([]);
 type Directions = 'left' | 'right' | 'up' | 'down';
+const emptyArr = new Array(16);
+
+const Directions = {
+  ArrowLeft: 'left',
+  ArrowRight: 'right',
+  ArrowUp: 'up',
+  ArrowDown: 'down',
+};
+
+for (let i = 0; i < 16; i++) {
+  propsPosition.value.push(emptyArr);
+}
 
 const colorMap: Record<string, string> = {
   '#000000': 'playableZone',
@@ -35,17 +50,18 @@ const getTileTextureOnRender = (zoneType: string) => {
     return locationTextures[0];
   }
 };
-const getPropTextureOnRender = () => {
+
+const getPropTextureOnRender = (x: number, y: number) => {
   const propsTextures = currentSubLocation?.props;
   if (propsTextures === undefined) {
-    return '/sprites/tiles/missing.png';
+    return;
   }
+
   const randomPropTextureIndex = Math.floor(Math.random() * propsTextures.length);
-  console.log(propsTextures.length + 'index of');
-  return propsTextures[randomPropTextureIndex];
+
+  propsPosition.value[x][y] = propsTextures[randomPropTextureIndex];
 };
 
-const pixelMap = ref<string[][]>([]);
 const characterPosition = ref({ x: 0, y: 0 });
 const characterRotation = ref('down');
 const gameCamera = ref<HTMLDivElement>();
@@ -83,6 +99,9 @@ const processImage = (img: HTMLImageElement) => {
 
       const hex = rgbToHex(r, g, b);
       const tileType = colorMap[hex] || 'missing';
+      if (tileType === 'decorationObject') {
+        getPropTextureOnRender(x, y);
+      }
       row.push(tileType);
 
       if (tileType === 'player') {
@@ -119,7 +138,6 @@ const characterMove = (direction: Directions) => {
       updateCamera();
     }
   }
-  console.log(characterPosition.value);
 };
 
 const updateCamera = () => {
@@ -141,7 +159,20 @@ const isPlayerNear = (x: number, y: number) => {
   );
 };
 
-onMounted(loadImage);
+const handleKeydown = (event: KeyboardEvent) => {
+  if (Directions[event.key]) {
+    characterMove(Directions[event.key]);
+  }
+};
+
+onMounted(() => {
+  loadImage();
+  window.addEventListener('keydown', handleKeydown);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeydown);
+});
 
 watch(characterPosition, updateCamera);
 </script>
@@ -167,7 +198,7 @@ watch(characterPosition, updateCamera);
             ></div>
             <div
               v-if="tile === 'decorationObject'"
-              :style="{ backgroundImage: `url(${getPropTextureOnRender()})` }"
+              :style="{ backgroundImage: `url(${propsPosition[j][i]})` }"
               title="prop"
               class="prop"
             ></div>
