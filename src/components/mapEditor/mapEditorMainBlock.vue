@@ -16,6 +16,7 @@ const mapArray = new Array(mapSize).fill(null).map(() => ({
   prop: {
     image: '',
     name: 'Empty',
+    isInteractive: false,
   },
   collision: true,
 }));
@@ -25,12 +26,13 @@ const selectedContentMenu = ref<'tiles' | 'props' | 'int.object'>('tiles');
 
 const selectedContent = ref<AllTiles | AllProps>(allTiles[1]);
 const isCollision = ref<boolean>(false);
+const isDraw = ref<boolean>(false);
 const isGridShown = ref<boolean>(true);
 const isCollisionShown = ref<boolean>(true);
 const mapName = ref<string>('map');
 const selectedContentType = ref<'tiles' | 'props' | 'int.object'>('tiles');
 
-const onClickMapTileChange = (x: number, y: number) => {
+const tileDraw = (x: number, y: number) => {
   if (selectedContentType.value === 'tiles') {
     editingMap.value[x][y].tile = selectedContent.value;
   } else if (selectedContentType.value === 'props') {
@@ -83,7 +85,7 @@ const importMapFromJSON = (event: Event) => {
 </script>
 
 <template>
-  <div class="main-editor-block">
+  <div class="main-editor-block" @mousedown="isDraw = true" @mouseup="isDraw = false">
     <div class="left-menu">
       <div class="options-wrapper">
         <span>Show grid: <input v-model="isGridShown" type="checkbox" /></span>
@@ -95,12 +97,7 @@ const importMapFromJSON = (event: Event) => {
           <div class="download-button" @click="exportMapAsJSON">Download</div>
         </div>
         <div class="selected-options">
-          <input
-            id="fileInput"
-            type="file"
-            accept="application/json"
-            @change="importMapFromJSON"
-          />
+          <input id="fileInput" type="file" accept="application/json" @change="importMapFromJSON" />
           <div
             class="download-button"
             @click="
@@ -134,7 +131,14 @@ const importMapFromJSON = (event: Event) => {
             :style="{ backgroundImage: `url(${tile.tile.image})` }"
             class="tile"
             :class="{ grid: isGridShown }"
-            @click="onClickMapTileChange(i, j)"
+            @mouseover="
+              () => {
+                if (isDraw) {
+                  tileDraw(i, j);
+                }
+              }
+            "
+            @mousedown="tileDraw(i, j)"
           >
             <div
               :class="{ collision: tile.collision && isCollisionShown }"

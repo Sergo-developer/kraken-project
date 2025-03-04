@@ -2,14 +2,15 @@
 import { ref, onMounted, watch, onUnmounted } from 'vue';
 import PlayerBars from '@/components/PlayerBars.vue';
 import useLocationStore from '@/stores/locationStore.ts';
+import type { MapElement } from '@/utilites/tileList.ts';
 
 const { currentSubLocation } = useLocationStore();
-const imageSrc = currentSubLocation?.map;
-const pixelMap = ref<string[][]>([]);
-const propsPosition = ref<string[][]>([]);
-type Directions = 'left' | 'right' | 'up' | 'down';
-const emptyArr = new Array(16);
+const pixelMap = ref<MapElement[][]>([]);
+const characterPosition = ref({ x: 0, y: 0 });
+const characterRotation = ref('down');
+const gameCamera = ref<HTMLDivElement>();
 
+type Directions = 'left' | 'right' | 'up' | 'down';
 const Directions = {
   ArrowLeft: 'left',
   ArrowRight: 'right',
@@ -17,106 +18,36 @@ const Directions = {
   ArrowDown: 'down',
 };
 
-for (let i = 0; i < 16; i++) {
-  propsPosition.value.push(emptyArr);
-}
+// Функция загрузки карты из JSON
+const loadMapFromJSON = async () => {
+  try {
+    const response = await fetch(currentSubLocation?.map ?? '');
+    const mapData = await response.json();
 
-const colorMap: Record<string, string> = {
-  '#000000': 'playableZone',
-  '#404040': 'playableZone2',
-  '#808080': 'playableZone3',
-  '#ff0000': 'player',
-  '#0026ff': 'exit',
-  '#b200ff': 'interactiveObject',
-  '#4cff00': 'decorationObject',
-  '#ffffff': 'empty',
-};
+    console.log('Загруженная карта:', mapData); // <-- Проверяем структуру JSON
 
-const getTileTextureOnRender = (zoneType: string) => {
-  const locationTextures = currentSubLocation?.textures;
-  if (!locationTextures) {
-    return '/sprites/tiles/missing.png';
-  }
-  if (zoneType === 'playableZone') {
-    return locationTextures[0];
-  }
-  if (zoneType === 'playableZone2') {
-    return locationTextures[1];
-  }
-  if (zoneType === 'playableZone3') {
-    return locationTextures[2];
-  }
-  if (zoneType !== 'empty') {
-    return locationTextures[0];
-  }
-};
+    if (!mapData || !Array.isArray(mapData)) {
+      throw new Error('Ошибка: `tiles` отсутствует или имеет неверный формат');
+    }
 
-const getPropTextureOnRender = (x: number, y: number) => {
-  const propsTextures = currentSubLocation?.props;
-  if (propsTextures === undefined) {
-    return;
-  }
+    pixelMap.value = mapData;
 
-  const randomPropTextureIndex = Math.floor(Math.random() * propsTextures.length);
-
-  propsPosition.value[x][y] = propsTextures[randomPropTextureIndex];
-};
-
-const characterPosition = ref({ x: 0, y: 0 });
-const characterRotation = ref('down');
-const gameCamera = ref<HTMLDivElement>();
-
-const loadImage = () => {
-  const img = new Image();
-  img.src = imageSrc;
-  img.crossOrigin = 'Anonymous';
-  img.onload = () => processImage(img);
-};
-
-const processImage = (img: HTMLImageElement) => {
-  const canvas = document.createElement('canvas');
-  const ctx = canvas.getContext('2d');
-
-  if (ctx === null) {
-    return;
-  }
-
-  canvas.width = img.width;
-  canvas.height = img.height;
-  ctx.drawImage(img, 0, 0, img.width, img.height);
-
-  const imageData = ctx.getImageData(0, 0, img.width, img.height);
-  const { data, width, height } = imageData;
-
-  const result = [];
-  for (let y = 0; y < height; y++) {
-    const row = [];
-    for (let x = 0; x < width; x++) {
-      const index = (y * width + x) * 4;
-      const r = data[index];
-      const g = data[index + 1];
-      const b = data[index + 2];
-
-      const hex = rgbToHex(r, g, b);
-      const tileType = colorMap[hex] || 'missing';
-      if (tileType === 'decorationObject') {
-        getPropTextureOnRender(x, y);
-      }
-      row.push(tileType);
-
-      if (tileType === 'player') {
-        characterPosition.value = { x, y };
+    for (let y = 0; y < pixelMap.value.length; y++) {
+      for (let x = 0; x < pixelMap.value[y].length; x++) {
+        if (pixelMap.value[y][x]?.prop?.name === 'player') {
+          characterPosition.value = { x, y };
+          break;
+        }
       }
     }
-    result.push(row);
+
+    updateCamera();
+  } catch (error) {
+    console.error('Ошибка загрузки карты:', error);
   }
-  pixelMap.value = result;
-  updateCamera();
 };
 
-const rgbToHex = (r: number, g: number, b: number) =>
-  `#${((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1)}`;
-
+// Перемещение персонажа
 const characterMove = (direction: Directions) => {
   const moves = {
     left: { x: 0, y: -1 },
@@ -127,29 +58,41 @@ const characterMove = (direction: Directions) => {
 
   const move = moves[direction];
   characterRotation.value = direction;
+
   if (move) {
     const newX = characterPosition.value.x + move.x;
     const newY = characterPosition.value.y + move.y;
 
-    if (pixelMap.value[newY] && pixelMap.value[newY][newX] === 'playableZone') {
-      pixelMap.value[characterPosition.value.y][characterPosition.value.x] = 'playableZone';
+    // Проверяем, есть ли столкновение (`collision === false` значит можно двигаться)
+    if (
+      pixelMap.value[newY] &&
+      pixelMap.value[newY][newX] &&
+      !pixelMap.value[newY][newX].collision
+    ) {
+      // Перемещаем игрока
+      pixelMap.value[characterPosition.value.y][characterPosition.value.x].prop = {
+        name: 'Empty',
+        image: '',
+      };
       characterPosition.value = { x: newX, y: newY };
-      pixelMap.value[newY][newX] = 'player';
+      pixelMap.value[newY][newX].prop = { name: 'player', image: '/sprites/characters/char0.png' };
+
       updateCamera();
     }
   }
 };
 
+// Обновление камеры
 const updateCamera = () => {
   if (gameCamera.value) {
-    const tileSize = 128; // Размер одной клетки
+    const tileSize = 128;
     const centerX = 700 / 2 - tileSize / 2;
     const centerY = 700 / 2 - tileSize / 2;
-
     gameCamera.value.style.transform = `translate(${centerX - characterPosition.value.y * tileSize}px, ${centerY - characterPosition.value.x * tileSize}px)`;
   }
 };
 
+// Проверяем, рядом ли игрок
 const isPlayerNear = (x: number, y: number) => {
   return (
     (characterPosition.value.x === x && characterPosition.value.y === y + 1) ||
@@ -159,6 +102,7 @@ const isPlayerNear = (x: number, y: number) => {
   );
 };
 
+// Обработка нажатий клавиш
 const handleKeydown = (event: KeyboardEvent) => {
   if (Directions[event.key]) {
     characterMove(Directions[event.key]);
@@ -166,7 +110,7 @@ const handleKeydown = (event: KeyboardEvent) => {
 };
 
 onMounted(() => {
-  loadImage();
+  loadMapFromJSON();
   window.addEventListener('keydown', handleKeydown);
 });
 
@@ -185,24 +129,20 @@ watch(characterPosition, updateCamera);
           <div
             v-for="(tile, j) in row"
             :key="j"
-            :style="{ backgroundImage: `url(${getTileTextureOnRender(tile)})` }"
-            :class="{ playableZone: tile !== 'empty', missing: tile === 'missing' }"
+            :style="{ backgroundImage: `url(${tile.tile.image})` }"
             class="tile"
           >
-            <div v-if="tile === 'player'" :class="characterRotation" class="prop character"></div>
             <div
-              v-if="tile === 'interactiveObject'"
-              :class="{ 'near-player': isPlayerNear(j, i) }"
-              title="prop"
-              class="prop chest"
+              v-if="tile.prop.name === 'player'"
+              :class="characterRotation"
+              class="prop character"
             ></div>
             <div
-              v-if="tile === 'decorationObject'"
-              :style="{ backgroundImage: `url(${propsPosition[j][i]})` }"
-              title="prop"
+              v-if="tile.prop.name != 'Empty' && tile.prop.name != 'player'"
+              :style="{ backgroundImage: `url(${tile.prop.image})` }"
+              :class="{ 'near-player': isPlayerNear(j, i) && tile.prop.isInteractive }"
               class="prop"
             ></div>
-            <div v-if="tile === 'exit'">Exit</div>
           </div>
         </div>
       </div>

@@ -6,8 +6,6 @@ export type SubLocations = {
   map: string;
   levelMin: number;
   levelMax: number;
-  textures: string[];
-  props: string[];
 };
 
 export interface AllLocations {
@@ -41,17 +39,7 @@ export const allLocations: Record<string, AllLocations> = {
         name: 'Hangar',
         levelMin: 1,
         levelMax: 5,
-        map: '/sprites/locationMaps/hangar.png',
-        props: [
-          '/sprites/props/deadBush.png',
-          '/sprites/props/deadBush2.png',
-          '/sprites/props/deadBush3.png',
-        ],
-        textures: [
-          '/sprites/tiles/metalFloor.png',
-          '/sprites/tiles/glassMetalFloor.png',
-          '/sprites/tiles/grassMono.png',
-        ],
+        map: '/maps/hangar.json',
       },
     ],
   },
@@ -74,17 +62,7 @@ export const allLocations: Record<string, AllLocations> = {
         name: 'pale halls',
         levelMin: 1,
         levelMax: 5,
-        map: '/sprites/locationMaps/paleHalls.png',
-        props: [
-          '/sprites/props/deadBush.png',
-          '/sprites/props/deadBush2.png',
-          '/sprites/props/deadBush3.png',
-        ],
-        textures: [
-          '/sprites/tiles/metalFloor.png',
-          '/sprites/tiles/glassMetalFloor.png',
-          '/sprites/tiles/grassMono.png',
-        ],
+        map: '/maps/paleHalls.json',
       },
     ],
   },
