@@ -46,7 +46,7 @@ const showItemInfo = (item: Item) => {
     </div>
   </div>
   <item-tooltip-popup v-if="inventoryStore.selectedItem" />
-  <item-cheat-menu v-if="false" />
+  <item-cheat-menu v-if="true" />
 </template>
 
 <style scoped>

@@ -4,12 +4,17 @@ import MapBlock from '@/components/Map/MapBlock.vue';
 import MerchantBlock from '@/components/Merchant/MerchantBlock.vue';
 import InventoryBlock from '@/components/Inventory/InventoryBlock.vue';
 import LobbyBlock from '@/components/Lobby/LobbyBlock.vue';
-import ItemInformationBlock from '@/components/Inventory/ItemTooltipPopup.vue';
 import GameBlock from '@/components/GameBlock.vue';
+import mapEditorMainBlock from '@/components/mapEditor/mapEditorMainBlock.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/map-editor',
+      name: 'map-editor',
+      component: mapEditorMainBlock,
+    },
     {
       path: '/',
       name: 'main',

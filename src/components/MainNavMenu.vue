@@ -15,6 +15,7 @@ const setBackButtonValue = () => {
   <div class="nav-menu">
     <router-link :to="setBackButtonValue()" class="nav-menu-button">{{ '<<' }}</router-link>
     <router-link :to="'map'" class="nav-menu-button">Map</router-link>
+    <router-link :to="'map-editor'" class="nav-menu-button">Map-editor</router-link>
     <router-link :to="'inventory'" class="nav-menu-button">Inventory</router-link>
     <div class="nav-menu-button">Status</div>
   </div>
