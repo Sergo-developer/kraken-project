@@ -2,6 +2,418 @@
   [
     {
       "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
         "image": "/sprites/tiles/metalFloor.png",
         "name": "Metal floor"
       },
@@ -38,164 +450,164 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
-        "image": "/sprites/props/deadBush3.png",
-        "name": "dead Bush 3",
+        "image": "",
+        "name": "Empty",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
-        "image": "/sprites/props/deadBush2.png",
-        "name": "dead Bush 2",
+        "image": "",
+        "name": "Empty",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
+        "image": "",
+        "name": "Empty",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
+        "image": "",
+        "name": "Empty",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     }
   ],
   [
     {
       "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
         "image": "/sprites/tiles/metalFloor.png",
         "name": "Metal floor"
       },
@@ -232,104 +644,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush2.png",
-        "name": "dead Bush 2",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush2.png",
-        "name": "dead Bush 2",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush3.png",
-        "name": "dead Bush 3",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -340,8 +656,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -352,8 +668,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -364,8 +680,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -376,190 +692,94 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush2.png",
-        "name": "dead Bush 2",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush2.png",
-        "name": "dead Bush 2",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/chest.png",
-        "name": "Chest",
-        "isInteractive": true
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/wall.png",
-        "name": "Wall"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -579,149 +799,185 @@
         "isInteractive": false
       },
       "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush3.png",
-        "name": "dead Bush 3",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
         "isInteractive": false
       },
       "collision": true
@@ -773,41 +1029,149 @@
         "isInteractive": false
       },
       "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
         "isInteractive": false
       },
       "collision": true
@@ -838,63 +1202,15 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
+      "collision": false
     },
     {
       "tile": {
@@ -914,23 +1230,11 @@
         "name": "Metal floor"
       },
       "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
+        "image": "",
+        "name": "Empty",
         "isInteractive": false
       },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/chest.png",
-        "name": "Chest",
-        "isInteractive": true
-      },
-      "collision": true
+      "collision": false
     },
     {
       "tile": {
@@ -946,8 +1250,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/wall.png",
-        "name": "Wall"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -958,22 +1262,106 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -984,8 +1372,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -996,68 +1384,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1068,8 +1396,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1080,32 +1408,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1116,8 +1420,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1128,8 +1432,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1140,8 +1444,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1152,22 +1456,106 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1178,8 +1566,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1190,116 +1578,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/wall.png",
-        "name": "Wall"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1310,58 +1590,166 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/chest.png",
-        "name": "Chest",
-        "isInteractive": true
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1372,8 +1760,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1384,116 +1772,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/chest.png",
-        "name": "Chest",
-        "isInteractive": true
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/wall.png",
-        "name": "Wall"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1504,58 +1784,166 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1566,8 +1954,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1578,116 +1966,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/wall.png",
-        "name": "Wall"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1698,70 +1978,166 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1772,116 +2148,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/plate.png",
-        "name": "Plate"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1892,58 +2160,178 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/chest.png",
-        "name": "Chest",
-        "isInteractive": true
-      },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1954,8 +2342,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -1966,68 +2354,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2038,44 +2366,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush3.png",
-        "name": "dead Bush 3",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2086,8 +2378,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2098,8 +2390,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2110,46 +2402,130 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
-      },
-      "prop": {
-        "image": "/sprites/props/warningSign.png",
-        "name": "Warning sign",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2160,80 +2536,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2244,68 +2548,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/chest.png",
-        "name": "Chest",
-        "isInteractive": true
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/wall.png",
-        "name": "Wall"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2316,94 +2560,166 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush3.png",
-        "name": "dead Bush 3",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush.png",
-        "name": "dead Bush 1",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2414,20 +2730,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush2.png",
-        "name": "dead Bush 2",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2438,166 +2742,178 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
+        "image": "",
+        "name": "Empty",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
     }
   ],
   [
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2608,20 +2924,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush3.png",
-        "name": "dead Bush 3",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2632,68 +2936,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/chest.png",
-        "name": "Chest",
-        "isInteractive": true
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/wall.png",
-        "name": "Wall"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2704,106 +2948,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    }
-  ],
-  [
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/chest.png",
-        "name": "Chest",
-        "isInteractive": true
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush2.png",
-        "name": "dead Bush 2",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2814,8 +2960,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2826,32 +2972,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2862,8 +2984,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2874,8 +2996,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2886,8 +3008,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/pillar.png",
-        "name": "Pillar"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -2898,106 +3020,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
         "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    }
-  ],
-  [
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "/sprites/props/chest.png",
-        "name": "Chest",
-        "isInteractive": true
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
-      },
-      "prop": {
-        "image": "/sprites/props/deadBush3.png",
-        "name": "dead Bush 3",
-        "isInteractive": false
-      },
-      "collision": true
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -3008,8 +3032,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
@@ -3020,87 +3044,63 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/grassMono.png",
-        "name": "Pale grass"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
-        "image": "/sprites/props/glass.png",
-        "name": "Glass",
+        "image": "",
+        "name": "Empty",
         "isInteractive": false
       },
       "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
+      "collision": true
     },
     {
       "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
+        "image": "",
+        "name": "Empty"
       },
       "prop": {
         "image": "",
         "name": "Empty",
         "isInteractive": false
       },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
-    },
-    {
-      "tile": {
-        "image": "/sprites/tiles/metalFloor.png",
-        "name": "Metal floor"
-      },
-      "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
-      },
-      "collision": false
+      "collision": true
     }
   ]
 ]

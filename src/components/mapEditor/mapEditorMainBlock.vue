@@ -41,21 +41,44 @@ const tileDraw = (x: number, y: number) => {
   editingMap.value[x][y].collision = isCollision.value;
   console.log(editingMap.value);
 };
+const exportMapAsJSON = async () => {
+  try {
+    const jsonData = JSON.stringify(editingMap.value, null, 2);
 
-const exportMapAsJSON = () => {
-  const jsonData = JSON.stringify(editingMap.value, null, 2); // Преобразуем в JSON с форматированием
+    // Проверяем поддержку API
+    if (!window.showSaveFilePicker) {
+      alert(
+        'Ваш браузер не поддерживает выбор папки сохранения. Файл будет загружен в папку загрузок.',
+      );
+      downloadFallback(jsonData);
+      return;
+    }
+
+    // Открываем окно выбора места сохранения
+    const fileHandle = await window.showSaveFilePicker({
+      suggestedName: `${mapName.value}.json`,
+      types: [{ description: 'JSON File', accept: { 'application/json': ['.json'] } }],
+    });
+
+    // Записываем файл
+    const writable = await fileHandle.createWritable();
+    await writable.write(jsonData);
+    await writable.close();
+  } catch (error) {
+    console.error('Ошибка при сохранении файла:', error);
+  }
+};
+
+// Фолбэк, если браузер не поддерживает `showSaveFilePicker`
+const downloadFallback = (jsonData) => {
   const blob = new Blob([jsonData], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
-
   const a = document.createElement('a');
   a.href = url;
   a.download = `${mapName.value}.json`;
-  document.body.appendChild(a);
   a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url); // Освобождаем память
+  URL.revokeObjectURL(url);
 };
-
 const importMapFromJSON = (event: Event) => {
   const input = event.target as HTMLInputElement;
   if (!input.files?.length) return;
