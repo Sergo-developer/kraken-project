@@ -15,27 +15,18 @@ const useItemStore = defineStore('itemStore', () => {
 
   const addInventoryItems = (itemName: string) => {
     const itemToAdd = structuredClone(allItemsList.find((item) => item.name === itemName));
-    if (!itemToAdd) return; // Проверяем, найден ли предмет
+    if (!itemToAdd) return;
 
-    const inventoryToAdd = inventoryItems.value;
-
-    const existingItem = inventoryToAdd.find((item) => item?.name === itemName);
-    if (existingItem) {
-      if (existingItem.count !== false) {
-        existingItem.count = (existingItem.count || 1) + 1;
-      }
-    } else {
-      const emptySlotIndex = inventoryToAdd.findIndex((item) => !item);
-      if (emptySlotIndex !== -1) {
-        inventoryToAdd[emptySlotIndex] = {
-          ...itemToAdd,
-          count: itemToAdd.count === false ? false : 1,
-        };
+    for (let i = 0; i < inventoryItems.value.length; i++) {
+      if (inventoryItems.value[i]?.name === itemToAdd.name && itemToAdd.isStackable) {
+        inventoryItems.value[i].count += 1;
+        break;
+      } else if (inventoryItems.value[i] === null) {
+        inventoryItems.value[i] = itemToAdd;
+        break;
       }
     }
-
-    inventoryItems.value = inventoryToAdd;
-    localStorage.setItem('inventoryItems', JSON.stringify(inventoryToAdd));
+    localStorage.setItem('inventoryItems', JSON.stringify(inventoryItems.value));
   };
 
   const selectItem = (item: Item) => {

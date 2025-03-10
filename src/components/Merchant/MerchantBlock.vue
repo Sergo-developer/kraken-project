@@ -1,5 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import InventoryBlock from '@/components/Inventory/InventoryBlock.vue';
+</script>
 
-<template></template>
+<template>
+</template>
 
 <style scoped></style>

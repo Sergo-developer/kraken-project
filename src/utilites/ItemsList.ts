@@ -87,7 +87,8 @@ export type Item = {
   quality: ItemsQualities;
   price: number;
   isBlocked: boolean;
-  count: false | number;
+  isStackable: boolean;
+  count: number;
   image: string;
   attribute: Attributes;
 };
@@ -99,6 +100,7 @@ export const allItemsList: Item[] = [
     quality: 'common',
     price: 100,
     isBlocked: false,
+    isStackable: true,
     count: 1,
     image: '/sprites/items/nails.png',
     attribute: {
@@ -112,6 +114,7 @@ export const allItemsList: Item[] = [
     quality: 'uncommon',
     price: 100,
     isBlocked: false,
+    isStackable: true,
     count: 1,
     image: '/sprites/items/oscilloscope.png',
     attribute: {
@@ -124,6 +127,7 @@ export const allItemsList: Item[] = [
     quality: 'uncommon',
     price: 200,
     isBlocked: false,
+    isStackable: true,
     count: 1,
     image: '/sprites/items/grease.png',
     attribute: {
@@ -136,6 +140,7 @@ export const allItemsList: Item[] = [
     quality: 'military',
     price: 2500,
     isBlocked: false,
+    isStackable: true,
     count: 1,
     image: '/sprites/items/repeater.png',
     attribute: {
@@ -149,6 +154,7 @@ export const allItemsList: Item[] = [
     quality: 'common',
     price: 500,
     isBlocked: false,
+    isStackable: true,
     count: 1,
     image: '/sprites/items/hammer.png',
     attribute: {
@@ -161,6 +167,7 @@ export const allItemsList: Item[] = [
     quality: 'unique',
     price: 3900,
     isBlocked: false,
+    isStackable: true,
     count: 1,
     image: '/sprites/items/gigarine.png',
     attribute: {
@@ -174,10 +181,51 @@ export const allItemsList: Item[] = [
     quality: 'classified',
     price: 99000,
     isBlocked: false,
+    isStackable: true,
     count: 1,
     image: '/sprites/items/wierdTech.png',
     attribute: {
       type: 'junk',
+    },
+  },
+  {
+    name: 'PM',
+    description:
+      'PM - Makarov`s pistol, legendary and ebeishy nahui sidearm voobshe, 13 amount of ammo make tvoi vrag fucking zdohnuth',
+    quality: 'classified',
+    price: 99000,
+    isBlocked: false,
+    isStackable: false,
+    count: 1,
+    image: '/sprites/items/weapons/PM.png',
+    attribute: {
+      type: 'weapon',
+      weaponType: 'pistol',
+      ammo: '9mm',
+      shotsCount: 1,
+      damageMin: 1,
+      damageMax: 2,
+      critChance: 10,
+      missChance: 23,
+    },
+  },
+
+  {
+    name: 'armor',
+    description: 'default suit',
+    quality: 'common',
+    price: 20,
+    isBlocked: false,
+    isStackable: false,
+    count: 1,
+    image: '/sprites/items/suits/SUNCSAS.png',
+    attribute: {
+      type: 'suit',
+      oxygenCapacity: 10,
+      armor: 10,
+      agility: 10,
+      critChance: 10,
+      missChance: 10,
     },
   },
 ];

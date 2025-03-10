@@ -92,4 +92,14 @@ export const allProps: AllProps[] = [
     name: 'dead Bush 3',
     isInteractive: false,
   },
+  {
+    image: '/sprites/props/redDoor.png',
+    name: 'red door',
+    isInteractive: true,
+  },
+  {
+    image: '/sprites/props/yellowDoor.png',
+    name: 'yellow door',
+    isInteractive: true,
+  },
 ];

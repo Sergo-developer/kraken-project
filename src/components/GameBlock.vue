@@ -150,6 +150,7 @@ watch(characterPosition, updateCamera);
   </div>
   <player-bars></player-bars>
   <div class="controls">
+    <div class="game-block-button"></div>
     <div class="move-buttons">
       <div class="move-button-element button-left" @click="characterMove('left')"></div>
       <div class="move-button-vertical">
@@ -158,10 +159,20 @@ watch(characterPosition, updateCamera);
       </div>
       <div class="move-button-element button-right" @click="characterMove('right')"></div>
     </div>
+    <div class="game-block-button"></div>
   </div>
 </template>
 
 <style scoped>
+.game-block-button {
+  border: white 1px solid;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  background-size: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .move-buttons {
   display: grid;
   gap: 5px;
@@ -286,7 +297,7 @@ watch(characterPosition, updateCamera);
 .controls {
   width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 5px;
   display: flex;
   gap: 10px;

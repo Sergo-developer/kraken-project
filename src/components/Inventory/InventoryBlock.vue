@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import useItemStore from '@/stores/itemStore.ts';
-import InventoryItem from '@/components/Inventory/InventoryItem.vue';
 import type { Item } from '@/utilites/ItemsList.ts';
 import ItemCheatMenu from '@/components/Inventory/ItemCheatMenu.vue';
+import Inventory from '@/components/Inventory/Inventory.vue';
 import ItemTooltipPopup from '@/components/Inventory/ItemTooltipPopup.vue';
 
 const inventoryStore = useItemStore();
 
 const showItemInfo = (item: Item) => {
+  console.log('item is selected', item);
   inventoryStore.selectItem(item);
 };
 </script>
@@ -38,14 +39,9 @@ const showItemInfo = (item: Item) => {
       </div>
       <div class="stats-block"></div>
     </div>
-    <div class="inventory-buttons"></div>
-    <div class="inventory-wrapper">
-      <div v-for="(item, i) in inventoryStore.inventoryItems" :key="i" class="inventory-slot">
-        <inventory-item :item @click="showItemInfo(item)" />
-      </div>
-    </div>
+    <inventory @show-item-info="showItemInfo" />
   </div>
-  <item-tooltip-popup v-if="inventoryStore.selectedItem" />
+  <item-tooltip-popup v-if="inventoryStore.selectedItem"></item-tooltip-popup>
   <item-cheat-menu v-if="true" />
 </template>
 
@@ -99,15 +95,6 @@ const showItemInfo = (item: Item) => {
   border: 1px white solid;
 }
 
-.inventory-buttons {
-  height: 25px;
-  background-color: rgba(0, 0, 0, 0.25);
-  width: 100%;
-  border-top: 1px white solid;
-  border-left: 1px white solid;
-  border-right: 1px white solid;
-}
-
 .character-block-wrapper {
   display: flex;
   flex-flow: column;
@@ -138,27 +125,5 @@ const showItemInfo = (item: Item) => {
   gap: 25px;
   margin-bottom: 25px;
   margin-top: 25px;
-}
-
-.inventory-slot {
-  background-color: rgba(0, 0, 0, 0.25);
-  border-bottom: 1px white solid;
-  border-right: 1px white solid;
-}
-
-.inventory-slot:nth-child(10n + 1) {
-  border-left: 1px white solid;
-}
-
-.inventory-slot:nth-child(-n + 10) {
-  border-top: 1px white solid;
-}
-
-.inventory-wrapper {
-  justify-content: center;
-  display: grid;
-  height: 260px;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(4, 1fr);
 }
 </style>

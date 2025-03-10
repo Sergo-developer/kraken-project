@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import useItemStore from '@/stores/itemStore.ts';
 import { qualityColor } from '@/utilites/ItemsList.ts';
+import ItemTooltipAdditionalInfo from '@/components/Inventory/itemTooltipAdditionalInfo.vue';
 const { unselectItem, selectedItem } = useItemStore();
 </script>
 
@@ -36,9 +37,7 @@ const { unselectItem, selectedItem } = useItemStore();
         <div class="description-wrapper">
           {{ selectedItem.description }}
         </div>
-        <div class="use-button" @click="() => {}">
-          <div>Use</div>
-        </div>
+        <item-tooltip-additional-info></item-tooltip-additional-info>
       </div>
     </div>
   </div>
@@ -71,42 +70,6 @@ const { unselectItem, selectedItem } = useItemStore();
   width: 100%;
   justify-content: flex-end;
   padding-right: 10px;
-}
-
-.use-button {
-  user-select: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-  width: 100%;
-  border: 1px solid white;
-  border-top: none;
-  color: white;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 0, 0, 0.25) 0%,
-    rgba(255, 0, 0, 0.13) 50%,
-    rgba(255, 0, 0, 0) 100%
-  );
-}
-
-.use-button:hover {
-  text-shadow: black 0 3px 3px;
-  background-size: 160px;
-  background-image: url('/sprites/background/bgMozaicRed.png');
-  animation: button-slide 10s linear infinite;
-  color: red;
-}
-
-@keyframes button-slide {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -100% 0;
-  }
 }
 
 .item-info-wrapper {

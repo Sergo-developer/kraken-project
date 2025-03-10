@@ -11,7 +11,7 @@ const { item } = defineProps<{ item: Item | undefined }>();
     class="inventory-item"
   >
     <div class="inventory-image" :style="{ backgroundImage: `url(${item.image})` }">
-      <div>{{ item.count ? item.count : '' }}</div>
+      <div>{{ item.isStackable ? item.count : '' }}</div>
     </div>
   </div>
 </template>
