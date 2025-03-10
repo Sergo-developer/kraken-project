@@ -16,23 +16,23 @@ const inventoryStore = useItemStore();
   height: 25px;
   background-color: rgba(0, 0, 0, 0.25);
   width: 100%;
-  border-top: 1px white solid;
-  border-left: 1px white solid;
-  border-right: 1px white solid;
+  border-top: 1px #232323 solid;
+  border-left: 1px #232323 solid;
+  border-right: 1px #232323 solid;
 }
 
 .inventory-slot {
   background-color: rgba(0, 0, 0, 0.25);
-  border-bottom: 1px white solid;
-  border-right: 1px white solid;
+  border-bottom: 1px #232323 solid;
+  border-right: 1px #232323 solid;
 }
 
 .inventory-slot:nth-child(10n + 1) {
-  border-left: 1px white solid;
+  border-left: 1px #232323 solid;
 }
 
 .inventory-slot:nth-child(-n + 10) {
-  border-top: 1px white solid;
+  border-top: 1px #232323 solid;
 }
 
 .inventory-wrapper {

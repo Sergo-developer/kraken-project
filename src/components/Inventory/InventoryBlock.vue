@@ -4,7 +4,6 @@ import type { Item } from '@/utilites/ItemsList.ts';
 import ItemCheatMenu from '@/components/Inventory/ItemCheatMenu.vue';
 import Inventory from '@/components/Inventory/Inventory.vue';
 import ItemTooltipPopup from '@/components/Inventory/ItemTooltipPopup.vue';
-
 const inventoryStore = useItemStore();
 
 const showItemInfo = (item: Item) => {
@@ -76,7 +75,7 @@ const showItemInfo = (item: Item) => {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid white;
   align-items: center;
   margin-left: 25px;
   margin-right: 25px;
@@ -92,7 +91,8 @@ const showItemInfo = (item: Item) => {
 .inventory-character-item {
   width: 70px;
   height: 70px;
-  border: 1px white solid;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px #232323 solid;
 }
 
 .character-block-wrapper {
@@ -105,7 +105,7 @@ const showItemInfo = (item: Item) => {
 
 .stats-block {
   background-color: rgba(0, 0, 0, 0.25);
-  border: 1px solid white;
+  border: 1px solid #232323;
   width: 35%;
   height: 100%;
 }
