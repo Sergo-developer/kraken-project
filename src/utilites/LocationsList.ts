@@ -54,7 +54,7 @@ export const allLocations: Record<string, AllLocations> = {
     reputation: [
       { name: 'loh', merchantItemsIndexes: [0, 1, 2] },
       { name: 'crutoi', merchantItemsIndexes: [6, 4, 3] },
-      { name: 'something', merchantItemsIndexes: [8, 9, 7] },
+      { name: 'something', merchantItemsIndexes: [8, 5, 7] },
     ],
     subLocations: [
       {

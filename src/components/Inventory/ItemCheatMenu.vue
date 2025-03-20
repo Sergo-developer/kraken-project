@@ -31,11 +31,16 @@ const { addInventoryItems } = useItemStore();
 }
 
 .inventory-wrapper {
+  height: 256px;
+  background-image: url('/sprites/background/bgMozaic.png');
+  background-size: 150px;
+  border: white 1px solid;
+  overflow: auto;
   position: absolute;
-  bottom: -300px;
+  top: 32px;
+  right: 32px;
   justify-content: center;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(8, 1fr);
 }
 </style>

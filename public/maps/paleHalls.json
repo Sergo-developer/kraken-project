@@ -1884,9 +1884,9 @@
         "name": "Plate"
       },
       "prop": {
-        "image": "",
-        "name": "Empty",
-        "isInteractive": false
+        "image": "/sprites/props/redDoor.png",
+        "name": "red door",
+        "isInteractive": true
       },
       "collision": true
     },

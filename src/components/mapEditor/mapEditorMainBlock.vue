@@ -111,6 +111,7 @@ const importMapFromJSON = (event: Event) => {
   <div class="main-editor-block" @mousedown="isDraw = true" @mouseup="isDraw = false">
     <div class="left-menu">
       <div class="options-wrapper">
+        <router-link :to="'/'">Back to the game</router-link>
         <span>Show grid: <input v-model="isGridShown" type="checkbox" /></span>
         <span>Show collision: <input v-model="isCollisionShown" type="checkbox" /></span>
       </div>
@@ -351,6 +352,7 @@ const importMapFromJSON = (event: Event) => {
 }
 
 .tiles-wrapper {
+  cursor: crosshair;
   display: flex;
   align-items: center;
   justify-content: center;

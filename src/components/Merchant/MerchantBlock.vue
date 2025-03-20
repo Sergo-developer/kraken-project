@@ -8,12 +8,15 @@ const itemSlotCount = 30;
 const merchantItems = ref(new Array(itemSlotCount));
 const itemsToSell = ref(new Array(itemSlotCount));
 const { currentLocation } = useLocationStore();
+type SelectedList = 'all' | 'I' | 'II' | 'III';
+const selectedList = ref<SelectedList>('all');
 
 const clearMerchantItems = () => {
   merchantItems.value = new Array(itemSlotCount);
 };
 
 const selectedMerchantItemsAll = () => {
+  selectedList.value = 'all';
   clearMerchantItems();
   const itemList = [];
   for (let i = 0; i < currentLocation.reputation.length; i++) {
@@ -26,7 +29,8 @@ const selectedMerchantItemsAll = () => {
   });
 };
 
-const selectMerchantItemsByReputation = (repIndex: number) => {
+const selectMerchantItemsByReputation = (repIndex: number, listName: SelectedList) => {
+  selectedList.value = listName;
   clearMerchantItems();
   const currentItemList = currentLocation.reputation[repIndex - 1].merchantItemsIndexes;
   currentItemList.map((item, i) => {
@@ -49,10 +53,34 @@ onMounted(() => {
           </div>
         </div>
         <div class="merchant-items-bottom-block">
-          <div class="small-button" @click="selectedMerchantItemsAll">all</div>
-          <div class="small-button" @click="selectMerchantItemsByReputation(1)">I</div>
-          <div class="small-button" @click="selectMerchantItemsByReputation(2)">II</div>
-          <div class="small-button" @click="selectMerchantItemsByReputation(3)">III</div>
+          <div
+            class="small-button"
+            :class="{ selected: selectedList === 'all' }"
+            @click="selectedMerchantItemsAll"
+          >
+            all
+          </div>
+          <div
+            :class="{ selected: selectedList === 'I' }"
+            class="small-button"
+            @click="selectMerchantItemsByReputation(1, 'I')"
+          >
+            I
+          </div>
+          <div
+            :class="{ selected: selectedList === 'II' }"
+            class="small-button"
+            @click="selectMerchantItemsByReputation(2, 'II')"
+          >
+            II
+          </div>
+          <div
+            :class="{ selected: selectedList === 'III' }"
+            class="small-button"
+            @click="selectMerchantItemsByReputation(3, 'III')"
+          >
+            III
+          </div>
         </div>
       </div>
       <div class="merchant-items-block">
@@ -101,6 +129,10 @@ onMounted(() => {
 .small-button:hover {
   background-color: white;
   color: black;
+}
+.small-button.selected {
+  border: solid yellow 1px;
+  color: yellow;
 }
 
 .small-button.sell-junk {

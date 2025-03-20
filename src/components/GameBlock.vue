@@ -3,6 +3,7 @@ import { ref, onMounted, watch, onUnmounted } from 'vue';
 import PlayerBars from '@/components/PlayerBars.vue';
 import useLocationStore from '@/stores/locationStore.ts';
 import type { MapElement } from '@/utilites/tileList.ts';
+import { onPlayerUseStore } from '@/utilites/playerObjectsUse.ts';
 
 const { currentSubLocation } = useLocationStore();
 const pixelMap = ref<MapElement[][]>([]);
@@ -119,6 +120,12 @@ onUnmounted(() => {
 });
 
 watch(characterPosition, updateCamera);
+
+const onPlayerUseObject = (objectName: string, x: number, y: number) => {
+  if (isPlayerNear(x, y)) {
+    onPlayerUseStore[objectName]();
+  }
+};
 </script>
 
 <template>
@@ -139,9 +146,11 @@ watch(characterPosition, updateCamera);
             ></div>
             <div
               v-if="tile.prop.name != 'Empty' && tile.prop.name != 'player'"
+              :title="tile.prop.name"
               :style="{ backgroundImage: `url(${tile.prop.image})` }"
               :class="{ 'near-player': isPlayerNear(j, i) && tile.prop.isInteractive }"
               class="prop"
+              @click="onPlayerUseObject(tile.prop.name, j, i)"
             ></div>
           </div>
         </div>
