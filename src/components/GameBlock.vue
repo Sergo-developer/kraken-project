@@ -122,8 +122,16 @@ onUnmounted(() => {
 watch(characterPosition, updateCamera);
 
 const onPlayerUseObject = (objectName: string, x: number, y: number) => {
-  if (isPlayerNear(x, y)) {
-    onPlayerUseStore[objectName]();
+  if (isPlayerNear(x, y) && onPlayerUseStore[objectName]) {
+    const isPlayerUseObject = onPlayerUseStore[objectName]();
+    if (isPlayerUseObject) {
+      pixelMap.value[y][x].collision = false;
+      pixelMap.value[y][x].prop = {
+        image: '',
+        name: 'Empty',
+        isInteractive: false,
+      };
+    }
   }
 };
 </script>

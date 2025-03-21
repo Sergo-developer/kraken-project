@@ -27,20 +27,28 @@ const selectedContentMenu = ref<'tiles' | 'props' | 'int.object'>('tiles');
 const selectedContent = ref<AllTiles | AllProps>(allTiles[1]);
 const isCollision = ref<boolean>(false);
 const isDraw = ref<boolean>(false);
+const mouseKeycode = ref<number>(0);
 const isGridShown = ref<boolean>(true);
 const isCollisionShown = ref<boolean>(true);
 const mapName = ref<string>('map');
 const selectedContentType = ref<'tiles' | 'props' | 'int.object'>('tiles');
 
 const tileDraw = (x: number, y: number) => {
+  // Левая кнопка мыши
+  console.log(mouseKeycode.value);
   if (selectedContentType.value === 'tiles') {
     editingMap.value[x][y].tile = selectedContent.value;
   } else if (selectedContentType.value === 'props') {
     editingMap.value[x][y].prop = selectedContent.value;
   }
+  if (mouseKeycode.value === 2) {
+    isCollision.value = true;
+  } else if (mouseKeycode.value === 0) {
+    isCollision.value = false;
+  }
   editingMap.value[x][y].collision = isCollision.value;
-  console.log(editingMap.value);
 };
+
 const exportMapAsJSON = async () => {
   try {
     const jsonData = JSON.stringify(editingMap.value, null, 2);
@@ -68,7 +76,10 @@ const exportMapAsJSON = async () => {
     console.error('Ошибка при сохранении файла:', error);
   }
 };
-
+const onMouseDown = (event: MouseEvent) => {
+  mouseKeycode.value = event.button;
+  isDraw.value = !isDraw.value;
+};
 // Фолбэк, если браузер не поддерживает `showSaveFilePicker`
 const downloadFallback = (jsonData) => {
   const blob = new Blob([jsonData], { type: 'application/json' });
@@ -108,7 +119,11 @@ const importMapFromJSON = (event: Event) => {
 </script>
 
 <template>
-  <div class="main-editor-block" @mousedown="isDraw = true" @mouseup="isDraw = false">
+  <div
+    class="main-editor-block"
+    @mousedown="(event) => onMouseDown(event)"
+    @mouseup="(event) => onMouseDown(event)"
+  >
     <div class="left-menu">
       <div class="options-wrapper">
         <router-link :to="'/'">Back to the game</router-link>
@@ -117,21 +132,10 @@ const importMapFromJSON = (event: Event) => {
       </div>
       <div class="file-wrapper">
         <div class="selected-options">
-          <input v-model="mapName" />
-          <div class="download-button" @click="exportMapAsJSON">Download</div>
+          <input id="fileInput" type="file" accept="application/json" @change="importMapFromJSON" />
         </div>
         <div class="selected-options">
-          <input id="fileInput" type="file" accept="application/json" @change="importMapFromJSON" />
-          <div
-            class="download-button"
-            @click="
-              () => {
-                document.getElementById('fileInput')?.click();
-              }
-            "
-          >
-            Load
-          </div>
+          <div class="download-button" @click="exportMapAsJSON">Save map</div>
         </div>
       </div>
       <div class="selected-wrapper">
@@ -147,7 +151,7 @@ const importMapFromJSON = (event: Event) => {
       </div>
     </div>
     <div class="editor-block">
-      <div class="tiles-wrapper">
+      <div class="tiles-wrapper" @contextmenu.prevent>
         <div v-for="(row, i) in editingMap" :key="i" class="grid-tile">
           <div
             v-for="(tile, j) in row"
@@ -156,13 +160,18 @@ const importMapFromJSON = (event: Event) => {
             class="tile"
             :class="{ grid: isGridShown }"
             @mouseover="
-              () => {
+              (event) => {
                 if (isDraw) {
                   tileDraw(i, j);
                 }
               }
             "
-            @mousedown="tileDraw(i, j)"
+            @mousedown="
+              (event) => {
+                mouseKeycode = event.button;
+                tileDraw(i, j);
+              }
+            "
           >
             <div
               :class="{ collision: tile.collision && isCollisionShown }"
@@ -228,6 +237,9 @@ const importMapFromJSON = (event: Event) => {
 
 <style scoped>
 .download-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #66b5b7;
   cursor: pointer;
 }

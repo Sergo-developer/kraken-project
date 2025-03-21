@@ -1880,8 +1880,8 @@
     },
     {
       "tile": {
-        "image": "/sprites/tiles/plate.png",
-        "name": "Plate"
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
       },
       "prop": {
         "image": "/sprites/props/redDoor.png",
