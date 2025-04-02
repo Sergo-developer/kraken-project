@@ -10,8 +10,14 @@ const premiumCurrencyString = ref<string>(premiumCurrency.value.toLocaleString('
 
 <template>
   <div class="currency-wrapper">
-    <div class="currency"><div class="currency-image obligation"></div><div class="currency-value">{{mainCurrencyString}}</div></div>
-    <div class="currency"><div class="currency-image premium"></div><div class="currency-value">{{premiumCurrencyString}}</div></div>
+    <div class="currency">
+      <div class="currency-image obligation"></div>
+      <div class="currency-value">{{ mainCurrencyString }}</div>
+    </div>
+    <div class="currency">
+      <div class="currency-image premium"></div>
+      <div class="currency-value">{{ premiumCurrencyString }}</div>
+    </div>
   </div>
 </template>
 
@@ -37,11 +43,11 @@ const premiumCurrencyString = ref<string>(premiumCurrency.value.toLocaleString('
 }
 
 .currency-image.obligation {
-  background-image: url("/sprites/currency/obligation.png");
+  background-image: url('/sprites/currency/obligation.png');
 }
 
 .currency-image.premium {
-  background-image: url("/sprites/currency/premium.png");
+  background-image: url('/sprites/currency/premium.png');
 }
 
 .currency-wrapper {

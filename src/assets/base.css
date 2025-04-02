@@ -1,5 +1,9 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
+
+  --tile-size: 128px;
+  --map-editor-tile-size: 48px;
+
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
@@ -66,6 +70,7 @@
 }
 
 body {
+  user-select: none;
   image-rendering: pixelated;
   min-height: 100vh;
   color: white;

@@ -1,0 +1,3106 @@
+[
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/chest.png",
+        "name": "Chest",
+        "isInteractive": true
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/characters/char0.png",
+        "name": "player",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/chest.png",
+        "name": "Chest",
+        "isInteractive": true
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/chest.png",
+        "name": "Chest",
+        "isInteractive": true
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "/sprites/tiles/plate.png",
+        "name": "Plate"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/redDoor.png",
+        "name": "red door",
+        "isInteractive": true
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "/sprites/tiles/wall.png",
+        "name": "Wall"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "/sprites/tiles/wall.png",
+        "name": "Wall"
+      },
+      "prop": {
+        "image": "/sprites/props/warningSign.png",
+        "name": "Warning sign",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/pillar.png",
+        "name": "Pillar"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/chest.png",
+        "name": "Chest",
+        "isInteractive": true
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/chest.png",
+        "name": "Chest",
+        "isInteractive": true
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/chest.png",
+        "name": "Chest",
+        "isInteractive": true
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/chest.png",
+        "name": "Chest",
+        "isInteractive": true
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "/sprites/props/glass.png",
+        "name": "Glass",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/pillar.png",
+        "name": "Pillar"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "/sprites/tiles/wall.png",
+        "name": "Wall"
+      },
+      "prop": {
+        "image": "/sprites/props/warningSign.png",
+        "name": "Warning sign",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "/sprites/tiles/wall.png",
+        "name": "Wall"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/redDoor.png",
+        "name": "red door",
+        "isInteractive": true
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "/sprites/tiles/plate.png",
+        "name": "Plate"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/props/chest.png",
+        "name": "Chest",
+        "isInteractive": true
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ]
+]

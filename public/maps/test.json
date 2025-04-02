@@ -1,0 +1,3106 @@
+[
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "/sprites/characters/char0.png",
+        "name": "player",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "/sprites/tiles/metalFloor.png",
+        "name": "Metal floor"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": false
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ],
+  [
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    },
+    {
+      "tile": {
+        "image": "",
+        "name": "Empty"
+      },
+      "prop": {
+        "image": "",
+        "name": "Empty",
+        "isInteractive": false
+      },
+      "collision": true
+    }
+  ]
+]
