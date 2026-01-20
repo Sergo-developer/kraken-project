@@ -148,12 +148,7 @@ const onPlayerUseObject = (objectName: string, x: number, y: number) => {
             class="tile"
           >
             <div
-              v-if="tile.prop.name === 'player'"
-              :class="characterRotation"
-              class="prop character"
-            ></div>
-            <div
-              v-if="tile.prop.name != 'Empty' && tile.prop.name != 'player'"
+              v-if="tile.prop.name !== 'Empty' && tile.prop.name !== 'player'"
               :title="tile.prop.name"
               :style="{ backgroundImage: `url(${tile.prop.image})` }"
               :class="{ 'near-player': isPlayerNear(j, i) && tile.prop.isInteractive }"
@@ -164,6 +159,7 @@ const onPlayerUseObject = (objectName: string, x: number, y: number) => {
         </div>
       </div>
     </div>
+    <div :class="characterRotation" class="character"></div>
   </div>
   <player-bars></player-bars>
   <div class="controls">
@@ -259,7 +255,17 @@ const onPlayerUseObject = (objectName: string, x: number, y: number) => {
 }
 
 .character {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--tile-size);
+  height: var(--tile-size);
   background-image: url('/sprites/characters/char0.png');
+  background-size: var(--tile-size);
+  background-repeat: no-repeat;
+  z-index: 10;
+  pointer-events: none;
 }
 
 .character.down {

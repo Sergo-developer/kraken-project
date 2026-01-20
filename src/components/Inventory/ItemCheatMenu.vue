@@ -7,8 +7,13 @@ const { addInventoryItems } = useItemStore();
 
 <template>
   <div class="inventory-wrapper">
-    <div v-for="(item, i) in allItemsList" :key="i" class="inventory-slot">
-      <inventory-item :item @click="addInventoryItems(item.name)" />
+    <div
+      v-for="(item, i) in allItemsList"
+      :key="i"
+      class="inventory-slot"
+      @click="addInventoryItems(item.name)"
+    >
+      <inventory-item :item />
     </div>
   </div>
 </template>

@@ -8,25 +8,25 @@ const useItemStore = defineStore('itemStore', () => {
 
   const selectedItem = ref<Item | null>(null);
 
-  const inventoryFromStore = localStorage.getItem('inventoryItems');
-  if (inventoryFromStore) {
-    inventoryItems.value = JSON.parse(inventoryFromStore);
-  }
-
   const addInventoryItems = (itemName: string) => {
     const itemToAdd = structuredClone(allItemsList.find((item) => item.name === itemName));
-    if (!itemToAdd) return;
+    if (!itemToAdd) {
+      return;
+    }
 
     for (let i = 0; i < inventoryItems.value.length; i++) {
       if (inventoryItems.value[i]?.name === itemToAdd.name && itemToAdd.isStackable) {
         inventoryItems.value[i].count += 1;
-        break;
-      } else if (inventoryItems.value[i] === null) {
-        inventoryItems.value[i] = itemToAdd;
-        break;
+        return;
       }
     }
-    localStorage.setItem('inventoryItems', JSON.stringify(inventoryItems.value));
+
+    for (let i = 0; i < inventoryItems.value.length; i++) {
+      if (!inventoryItems.value[i]) {
+        inventoryItems.value[i] = itemToAdd;
+        return;
+      }
+    }
   };
 
   const selectItem = (item: Item) => {

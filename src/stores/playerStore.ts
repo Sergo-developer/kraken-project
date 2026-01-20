@@ -14,14 +14,8 @@ type Player = {
 const usePlayerStore = defineStore('playerStore', () => {
   const player = ref<Player | undefined>();
 
-  const userFromStore = localStorage.getItem('player');
-  if (userFromStore) {
-    player.value = JSON.parse(userFromStore);
-  }
-
   const setUserData = (userData: Player) => {
     player.value = userData;
-    localStorage.setItem('player', JSON.stringify(userData));
   };
 
   return {
