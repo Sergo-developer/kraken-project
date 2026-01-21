@@ -112,6 +112,28 @@ const moveInterval = ref<number | null>(null);
 const moveDelay = 150;
 
 const interactWithNearbyObject = () => {
+  const directionOffsets: Record<Directions, { x: number; y: number }> = {
+    left: { x: 0, y: -1 },
+    right: { x: 0, y: 1 },
+    up: { x: -1, y: 0 },
+    down: { x: 1, y: 0 },
+  };
+
+  const offset = directionOffsets[characterRotation.value as Directions];
+  const targetX = characterPosition.value.x + offset.x;
+  const targetY = characterPosition.value.y + offset.y;
+
+  if (
+    pixelMap.value[targetY] &&
+    pixelMap.value[targetY][targetX] &&
+    pixelMap.value[targetY][targetX].prop.name !== 'Empty' &&
+    pixelMap.value[targetY][targetX].prop.name !== 'player' &&
+    pixelMap.value[targetY][targetX].prop.isInteractive
+  ) {
+    onPlayerUseObject(pixelMap.value[targetY][targetX].prop.name, targetX, targetY);
+    return;
+  }
+
   for (let y = 0; y < pixelMap.value.length; y++) {
     for (let x = 0; x < pixelMap.value[y].length; x++) {
       const tile = pixelMap.value[y][x];
