@@ -111,7 +111,25 @@ const pressedKeys = ref<Set<string>>(new Set());
 const moveInterval = ref<number | null>(null);
 const moveDelay = 150;
 
+const interactWithNearbyObject = () => {
+  for (let y = 0; y < pixelMap.value.length; y++) {
+    for (let x = 0; x < pixelMap.value[y].length; x++) {
+      const tile = pixelMap.value[y][x];
+      if (tile.prop.name !== 'Empty' && tile.prop.name !== 'player' && tile.prop.isInteractive && isPlayerNear(x, y)) {
+        onPlayerUseObject(tile.prop.name, x, y);
+        return;
+      }
+    }
+  }
+};
+
 const handleKeydown = (event: KeyboardEvent) => {
+  if (event.code === 'Space') {
+    event.preventDefault();
+    interactWithNearbyObject();
+    return;
+  }
+
   if (DirectionsByCode[event.code]) {
     pressedKeys.value.add(event.code);
   }
