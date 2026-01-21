@@ -108,7 +108,7 @@ const isPlayerNear = (x: number, y: number) => {
 };
 
 const pressedKeys = ref<Set<string>>(new Set());
-const moveInterval = ref<number | null>(null);
+const lastMoveTime = ref(0);
 const moveDelay = 150;
 
 const interactWithNearbyObject = () => {
@@ -152,8 +152,16 @@ const handleKeydown = (event: KeyboardEvent) => {
     return;
   }
 
-  if (DirectionsByCode[event.code]) {
+  const direction = DirectionsByCode[event.code];
+  if (direction) {
+    const wasEmpty = pressedKeys.value.size === 0;
     pressedKeys.value.add(event.code);
+
+    const now = Date.now();
+    if (wasEmpty || now - lastMoveTime.value >= moveDelay) {
+      characterMove(direction);
+      lastMoveTime.value = now;
+    }
   }
 };
 
@@ -165,26 +173,37 @@ const handleKeyup = (event: KeyboardEvent) => {
 
 const processMovement = () => {
   if (pressedKeys.value.size > 0) {
-    const lastKey = Array.from(pressedKeys.value)[pressedKeys.value.size - 1];
-    const direction = DirectionsByCode[lastKey];
-    if (direction) {
-      characterMove(direction);
+    const now = Date.now();
+    if (now - lastMoveTime.value >= moveDelay) {
+      const lastKey = Array.from(pressedKeys.value)[pressedKeys.value.size - 1];
+      const direction = DirectionsByCode[lastKey];
+      if (direction) {
+        characterMove(direction);
+        lastMoveTime.value = now;
+      }
     }
   }
+};
+
+const animationFrameId = ref<number | null>(null);
+
+const gameLoop = () => {
+  processMovement();
+  animationFrameId.value = requestAnimationFrame(gameLoop);
 };
 
 onMounted(() => {
   loadMapFromJSON();
   window.addEventListener('keydown', handleKeydown);
   window.addEventListener('keyup', handleKeyup);
-  moveInterval.value = window.setInterval(processMovement, moveDelay);
+  animationFrameId.value = requestAnimationFrame(gameLoop);
 });
 
 onUnmounted(() => {
   window.removeEventListener('keydown', handleKeydown);
   window.removeEventListener('keyup', handleKeyup);
-  if (moveInterval.value !== null) {
-    clearInterval(moveInterval.value);
+  if (animationFrameId.value !== null) {
+    cancelAnimationFrame(animationFrameId.value);
   }
 });
 
