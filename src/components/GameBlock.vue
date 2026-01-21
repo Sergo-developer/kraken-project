@@ -12,11 +12,15 @@ const characterRotation = ref('down');
 const gameCamera = ref<HTMLDivElement>();
 
 type Directions = 'left' | 'right' | 'up' | 'down';
-const Directions = {
+const DirectionsByCode: Record<string, Directions> = {
   ArrowLeft: 'left',
   ArrowRight: 'right',
   ArrowUp: 'up',
   ArrowDown: 'down',
+  KeyA: 'left',
+  KeyD: 'right',
+  KeyW: 'up',
+  KeyS: 'down',
 };
 
 // Функция загрузки карты из JSON
@@ -103,20 +107,45 @@ const isPlayerNear = (x: number, y: number) => {
   );
 };
 
-// Обработка нажатий клавиш
+const pressedKeys = ref<Set<string>>(new Set());
+const moveInterval = ref<number | null>(null);
+const moveDelay = 150;
+
 const handleKeydown = (event: KeyboardEvent) => {
-  if (Directions[event.key]) {
-    characterMove(Directions[event.key]);
+  if (DirectionsByCode[event.code]) {
+    pressedKeys.value.add(event.code);
+  }
+};
+
+const handleKeyup = (event: KeyboardEvent) => {
+  if (DirectionsByCode[event.code]) {
+    pressedKeys.value.delete(event.code);
+  }
+};
+
+const processMovement = () => {
+  if (pressedKeys.value.size > 0) {
+    const lastKey = Array.from(pressedKeys.value)[pressedKeys.value.size - 1];
+    const direction = DirectionsByCode[lastKey];
+    if (direction) {
+      characterMove(direction);
+    }
   }
 };
 
 onMounted(() => {
   loadMapFromJSON();
   window.addEventListener('keydown', handleKeydown);
+  window.addEventListener('keyup', handleKeyup);
+  moveInterval.value = window.setInterval(processMovement, moveDelay);
 });
 
 onUnmounted(() => {
   window.removeEventListener('keydown', handleKeydown);
+  window.removeEventListener('keyup', handleKeyup);
+  if (moveInterval.value !== null) {
+    clearInterval(moveInterval.value);
+  }
 });
 
 watch(characterPosition, updateCamera);
